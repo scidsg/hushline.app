@@ -90,9 +90,12 @@
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 42px;
+  background-position-y: center;
   width: var(--size-btn-icon);
   height: var(--size-btn-icon);
+  padding: 0.25rem .25rem .25rem 2.5rem !important;
+}
 }
 
 .skiplink {
