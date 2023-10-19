@@ -95,6 +95,31 @@
   height: var(--size-btn-icon);
 }
 
+.skiplink {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  background-color: #7D25C1;
+  color: white;
+}
+
+.skiplink:focus {
+    outline: 2px solid white !important;
+}
+
+.skiplink:not(:focus) {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%); 
+  margin: -1px;
+}
+
 @media only screen and (max-width: 768px) {
 
   .btn {
