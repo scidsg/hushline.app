@@ -57,6 +57,7 @@
   background: url('../../../images/website/color-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover !important;
+  overflow: hidden;
 }
 
 .intro .wrapper {
@@ -227,6 +228,10 @@ p.hint a {
   .intro p {
     width: 100% !important;
     text-align: center;
+  }
+
+  .intro {
+    overflow: initial;
   }
 
   .intro img {
