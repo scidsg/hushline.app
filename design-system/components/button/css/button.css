@@ -76,10 +76,6 @@
   line-height: var(--line-height-button);
   letter-spacing: var(--kern-open);
   border-radius: 50vw;
-  min-height: 48px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .tertiaryBtn {
