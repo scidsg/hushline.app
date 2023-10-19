@@ -207,13 +207,14 @@ nav .badge {
     display: flex;
     align-self: center;
     padding: 0 0 0 2.325rem;
+    margin: .25rem 0;
   }
 
   header nav ul {
     flex-direction: column;
     position: absolute;
     top: 48px;
-    right: calc(var(--spacing-xlarge) * .75);
+    right: 0;
     width: max-content;
     z-index: 1;
     padding: var(--spacing-small) 0;
