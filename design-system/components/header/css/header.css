@@ -206,6 +206,7 @@ nav .badge {
   .mobileNav {
     display: flex;
     align-self: center;
+    padding: 0 0 0 2.325rem;
   }
 
   header nav ul {
