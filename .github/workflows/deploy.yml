@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to Digital Ocean
       run: |
-        ssh -i ~/.ssh/id_rsa your-user@your-droplet-ip "cd /var/www/html/hushline.app && git pull origin main"
+        ssh -i ~/.ssh/id_rsa root@159.89.104.28 "cd /var/www/html/hushline.app && git pull origin main"
