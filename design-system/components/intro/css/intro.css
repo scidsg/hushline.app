@@ -70,7 +70,6 @@
 
 .intro img {
   max-width: 1024px;
-  height: auto;
   display: flex;
   position: absolute;
   left: 58%;
@@ -212,7 +211,6 @@ p.hint a {
 
   .intro img {
     max-width: 768px;
-    height: auto;
   }
 
 }
@@ -232,7 +230,6 @@ p.hint a {
     position: initial;
     margin: 4rem auto -2rem auto;
     transform: initial !important;
-    height: initial;
     width: 100%;
 
   }
