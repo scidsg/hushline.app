@@ -209,6 +209,7 @@ p.hint a {
 
   .intro img {
     max-width: 768px;
+    height: auto;
   }
 
 }
