@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   .intro {
-    background-color: white;
+    background-color: rgba(125,37,193,.1);
   }
 
   .intro .code {
@@ -8,26 +8,26 @@
   }
 
   .intro h2 {
-    color: white;
-    text-shadow: 0 4px 12px rgba(119, 19, 179, 0.6);
+    color: #370C6B;
   }
 
    .intro h2 ~ p {
-    color: white;
-    text-shadow: 0 2px 8px rgba(119, 19, 179, 0.85);
+    color: #370C6B;
   }
 
   .intro p:not(.code p) {
-    color: white !important;
+    color: #370C6B; !important;
   }
 
   .intro h2 + p,
   .intro a {
-    color: white !important;
+    color: #370C6B; !important;
   }
+ 
 
   .intro .btn {
     color: rgba(119, 19, 179, 1) !important;
+    border-color: rgba(125,37,193,1);
   }
 
   p.hint {
@@ -54,10 +54,13 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/color-bg.jpg');
-  background-repeat: no-repeat;
   background-size: cover !important;
   overflow: hidden;
+  
+}
+
+.intro p {
+  width: 55%;
 }
 
 .intro .wrapper {
@@ -66,15 +69,15 @@
 }
 
 .intro img {
-  width: 333px;
+  max-width: 1024px;
   position: absolute;
-  right: var(--spacing-base);
-  top: 50%;
+  left: 58%;
+  top: 33%;
   transform: translateY(-50%);
 }
 
 .intro h2 {
-  width: 66% !important;
+  width: 55% !important;
   margin-top: 0 !important;
   font-family: "Sans Bold", sans-serif;
   line-height: var(--line-height-heading);
@@ -173,7 +176,7 @@ p.hint a {
 @media only screen and (max-width: 1280px) {
   .intro h2,
   .intro p {
-    width: 60%;
+    width: 50%;
   }
 
   .intro {
@@ -183,7 +186,7 @@ p.hint a {
 @media only screen and (max-width: 1024px) {
 
   .intro img {
-    width: 320px;
+    max-width: 960px;
   }
 
   .intro h2,
@@ -197,10 +200,6 @@ p.hint a {
   .intro p {
   }
 
-  .intro img {
-    width: 280px;
-    right: 1rem;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -208,19 +207,10 @@ p.hint a {
     padding: 0 var(--spacing-small);
   }
 
-  .intro h2,
-  .intro p {
-    width: 75%;
-  }
-
-  .intro h2 {
-
-  }
-
   .intro img {
-    width: 260px;
-    right: -5rem;
+    max-width: 768px;
   }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -236,9 +226,7 @@ p.hint a {
 
   .intro img {
     position: initial;
-    width: 320px !important;
-    height: 605px !important;
-    margin: 0 auto -2rem auto;
+    margin: 4rem auto -2rem auto;
     transform: initial !important;
   }
 
@@ -252,16 +240,12 @@ p.hint a {
   }
 
   .intro h2 {
-    margin-top: 8rem !important;
+    margin-top: 5rem !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .intro .code {
     padding: var(--spacing-small) var(--spacing-small);
-  }
-
-  .intro img {
-    width: 66%;
   }
 }

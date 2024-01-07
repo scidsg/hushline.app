@@ -80,7 +80,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Serif Bold', serif;
+  font-family: 'Sans Bold', serif;
   line-height: var(--line-height-heading) !important;
   width: fit-content;
   margin: var(--spacing-base) 0;
