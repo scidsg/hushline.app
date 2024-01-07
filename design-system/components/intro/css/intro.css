@@ -232,7 +232,9 @@ p.hint a {
     position: initial;
     margin: 4rem auto -2rem auto;
     transform: initial !important;
-    height: auto
+    height: auto;
+    width: 100%;
+
   }
 
   .intro code {
