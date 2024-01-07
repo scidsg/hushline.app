@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: light) {
   .badge {
     border: var(--border-dark);
-    background-color: var(--color-shade-lm);
+    background-color: white;
   }
 }
 
@@ -14,11 +14,16 @@
 
 .badge {
   padding: var(--spacing-xsmall) var(--spacing-small);
-  font-size: var(--font-size-xsmall);
-  letter-spacing: var(--kern-open);
+  font-size: calc(var(--font-size-xsmall) * 1) !important;
+  letter-spacing: var(--kern-medium);
   border-radius: var(--radius-round);
-  width: fit-content;
+  width: fit-content !important;
+  display: flex;
   font-family: 'Sans Bold';
+}
+
+.intro .badge {
+  margin-bottom: 1.5rem !important;
 }
 
 .badgeContainer {
