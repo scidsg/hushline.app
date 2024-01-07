@@ -70,6 +70,7 @@
 
 .intro img {
   max-width: 1024px;
+  height: max-content;
   position: absolute;
   left: 58%;
   top: 33%;
