@@ -70,7 +70,7 @@
 
 .intro img {
   max-width: 1024px;
-  height: max-content;
+  height: auto;
   position: absolute;
   left: 58%;
   top: 33%;
@@ -188,6 +188,7 @@ p.hint a {
 
   .intro img {
     max-width: 960px;
+    height: auto;
   }
 
   .intro h2,
@@ -230,6 +231,7 @@ p.hint a {
     position: initial;
     margin: 4rem auto -2rem auto;
     transform: initial !important;
+    height: auto
   }
 
   .intro code {
