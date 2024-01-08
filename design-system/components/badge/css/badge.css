@@ -23,6 +23,7 @@
     border: var(--border-dark);
     border-color: rgba(119, 19, 179, .25);
     background-color: white;
+    margin-bottom: 1rem;
   }
 
 .intro .badge {
