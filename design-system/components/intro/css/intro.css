@@ -41,7 +41,6 @@ justify-content: center;
 background-size: cover !important;
 overflow: hidden;
 display: flex;
-
 }
 
 .intro p {
@@ -69,6 +68,8 @@ width: 55% !important;
 margin-top: 0 !important;
 font-family: "Sans Bold", sans-serif;
 line-height: var(--line-height-heading);
+margin-bottom: 0 !important;
+
 }
 
 .intro .code {
