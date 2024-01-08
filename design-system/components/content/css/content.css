@@ -1,5 +1,4 @@
-@media (prefers-color-scheme: light) {
-  .iconAlt {
+.iconAlt {
     color: var(--color-label-lm);
   }
 
@@ -15,22 +14,6 @@
   .featureSection#hardware {
     background-color: var(--color-shade-lm);
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  .iconAlt {
-    color: var(--color-label-dm);
-  }
-
-  .description img.avatar {
-    box-shadow: var(--shadow-dm);
-    border: var(--border-light);
-  }
-
-  .featureSection {
-    background-color: var(--color-shade-dm);
-  }
-}
 
 .cols {
   display: flex;

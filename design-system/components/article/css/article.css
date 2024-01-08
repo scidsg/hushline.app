@@ -1,16 +1,8 @@
 @media (prefers-color-scheme: light) {
-  .highlights {
-    background-color: var(--color-shade-lm);
-  }
-
-  .aside {
-    border: var(--border-dark);
-    background-color: var(--color-light);
-    box-shadow: var(--shadow-lm);
-  }
+  
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   .highlights {
     background-color: var(--color-shade-dm);
   }
@@ -24,6 +16,15 @@
   .aside .btn:hover {
     background-color: var(--color-dark);
   }
+}*/
+.highlights {
+  background-color: var(--color-shade-lm);
+}
+
+.aside {
+  border: var(--border-dark);
+  background-color: var(--color-light);
+  box-shadow: var(--shadow-lm);
 }
 
 .articleBody h2, .articleBody h3, .articleBody h4, .articleBody h5 {

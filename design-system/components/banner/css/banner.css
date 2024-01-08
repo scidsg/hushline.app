@@ -1,5 +1,4 @@
-@media (prefers-color-scheme: light) {
-  .banner {
+.banner {
     background-color: #7D25C1 !important;
   }
 
@@ -10,21 +9,6 @@
   .bannerBtn {
     background-image: url('../../../images/banner/dm-icon-close.png');
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  .banner {
-    background-color: #E2C9F5;
-  }
-
-  .banner p, .banner a {
-    color: var(--color-dark) !important;
-  }
-
-  .bannerBtn {
-    background-image: url('../../../images/banner/lm-icon-close.png');
-  }
-}
 
 .banner {
   text-align: center;

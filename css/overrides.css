@@ -1,9 +1,5 @@
-/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
-/* Please consider contributing! */
 
-/* Add your custom styles in this file... */
 
-@media (prefers-color-scheme: light) {
 	.banner {
 		background-color: #7D25C1;
 	}
@@ -32,40 +28,6 @@
 	.icon.gift {
 		background-image: url('../design-system/images/website/lm-donor.png');
 	}
-}
-
-@media (prefers-color-scheme: dark) {
-	.banner {
-		background-color: var(--color-dark-translucent) !important;
-	}
-	.banner p {
-		color: white !important;
-	}
-	header {
-		outline: var(--border-light);
-		box-shadow: var(--shadow-dm);
-	}
-
-	.icon.verified {
-		background-image: url('../design-system/images/website/dm-safe.png');
-	}
-
-	.icon.sec {
-		background-image: url('../design-system/images/website/dm-sec.png');
-	}
-
-	.icon.open {
-		background-image: url('../design-system/images/website/dm-contrib.png');
-	}
-
-	.icon.proj {
-		background-image: url('../design-system/images/website/dm-project.png');
-	}
-
-	.icon.gift {
-		background-image: url('../design-system/images/website/dm-donor.png');
-	}
-}
 
 #main {
 	margin-top: 8px;

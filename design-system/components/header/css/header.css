@@ -1,5 +1,4 @@
-@media (prefers-color-scheme: light) {
-  header {
+header {
     background-color: white !important;
   }
 
@@ -20,26 +19,6 @@
 /*    box-shadow: inset 0 -3px #9E4BDD;*/
     box-shadow: inset 0 -3px #7D25C1;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  header {
-    background-color: var(--color-dark-translucent) !important;
-    outline: 1px solid rgba(--color-light);
-  }
-
-  nav a.selected {
-    box-shadow: inset 0 -3px var(--color-light);
-  }
-
-  nav .btn.primaryBtn {
-    background-color: #E2C9F5 !important;
-  }
-
-  nav ul li a:hover {
-    box-shadow: inset 0 -3px var(--color-light);
-  }
-}
 
 header {
   position: fixed;

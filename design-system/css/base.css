@@ -1,5 +1,4 @@
-@media (prefers-color-scheme: light) {
-  ::selection {
+::selection {
       background-color: #7D25C1;
       color: var(--color-light);
   }
@@ -77,93 +76,6 @@
   .icon.screen {
     background-image: url("../images/website/screen-lm.png");
   }
-
-}
-
-@media (prefers-color-scheme: dark) {
-  ::selection {
-      background-color: var(--color-light);
-      color: #7D25C1;
-  }
-
-    :focus {
-      outline: solid 3px #7D25C1;
-    }
-
-    .btn:focus {
-      outline: solid 3px #7D25C1;
-    }
-
-  body {
-    background-color: var(--color-dark);
-  }
-
-  input {
-    background-color: var(--color-dark);
-    color: var(--color-light);
-    border: var(--border-light-1);
-  }
-
-  label {
-   color: var(--color-light);
-  }
-
-  input[type="search"] {
-    background-image: url("../../design-system/images/input/icon-search-dm.png");
-  }
-
-  a {
-    color: var(--color-light);
-  }
-
-  ol, ul {
-    color: var(--color-light);
-  }
-
-  .icon.donate {
-    background-image: url("../images/website/heart-dm.png");
-  }
-
-  .icon.work {
-    background-image: url("../images/website/work-dm.png");
-  }
-
-  .icon.news {
-    background-image: url("../images/website/news-dm.png");
-  }
-
-  .icon.school {
-    background-image: url("../images/website/school-dm.png");
-  }
-
-  .icon.email {
-    background-image: url('../../design-system/images/website/dm-mail.png');
-  }
-
-  .icon.account {
-    background-image: url("../images/website/account-dm.png");
-  }
-
-  .icon.codeIcon {
-    background-image: url("../images/website/code-dm.png");
-  }
-
-  .icon.onion {
-    background-image: url("../images/website/onion-dm.png");
-  }
-
-  .icon.lock {
-    background-image: url("../images/website/lock-dm.png");
-  }
-
-  .icon.robot {
-    background-image: url("../images/website/robot-dm.png");
-  }
-
-  .icon.screen {
-    background-image: url("../images/website/screen-dm.png");
-  }
-}
 
 :focus {
   text-decoration: underline;
