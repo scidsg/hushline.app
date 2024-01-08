@@ -12,6 +12,26 @@
 		outline: var(--border-dark);
 		box-shadow: var(--shadow-lm);
 	}
+
+	.icon.verified {
+		background-image: url('../design-system/images/website/lm-safe.png');
+	}
+
+	.icon.sec {
+		background-image: url('../design-system/images/website/lm-sec.png');
+	}
+
+	.icon.open {
+		background-image: url('../design-system/images/website/lm-contrib.png');
+	}
+
+	.icon.proj {
+		background-image: url('../design-system/images/website/lm-project.png');
+	}
+
+	.icon.gift {
+		background-image: url('../design-system/images/website/lm-donor.png');
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +44,26 @@
 	header {
 		outline: var(--border-light);
 		box-shadow: var(--shadow-dm);
+	}
+
+	.icon.verified {
+		background-image: url('../design-system/images/website/dm-safe.png');
+	}
+
+	.icon.sec {
+		background-image: url('../design-system/images/website/dm-sec.png');
+	}
+
+	.icon.open {
+		background-image: url('../design-system/images/website/dm-contrib.png');
+	}
+
+	.icon.proj {
+		background-image: url('../design-system/images/website/dm-project.png');
+	}
+
+	.icon.gift {
+		background-image: url('../design-system/images/website/dm-donor.png');
 	}
 }
 

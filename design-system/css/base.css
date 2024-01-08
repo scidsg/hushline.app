@@ -51,7 +51,7 @@
   }
 
   .icon.email {
-    background-image: url("../images/website/email-lm.png");
+    background-image: url('../../design-system/images/website/lm-mail.png');
   }
 
   .icon.account {
@@ -137,7 +137,7 @@
   }
 
   .icon.email {
-    background-image: url("../images/website/email-dm.png");
+    background-image: url('../../design-system/images/website/dm-mail.png');
   }
 
   .icon.account {
