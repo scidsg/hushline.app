@@ -13,7 +13,7 @@
   padding: var(--spacing-xsmall) var(--spacing-small);
   font-size: calc(var(--font-size-xsmall) * 1) !important;
   letter-spacing: var(--kern-medium);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-soft);
   width: fit-content !important;
   display: flex;
   font-family: 'Sans Bold';
@@ -21,7 +21,7 @@
 
 .badge {
     border: var(--border-dark);
-/*    border-color: rgba(119, 19, 179, 1);*/
+    border-color: rgba(119, 19, 179, .25);
     background-color: white;
   }
 
