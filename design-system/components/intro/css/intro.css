@@ -55,6 +55,7 @@ position: relative;
 
 .intro img {
 max-width: 1024px;
+width: 100%;
 display: flex;
 height: auto;
 position: absolute;
