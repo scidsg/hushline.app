@@ -48,7 +48,7 @@ width: 55%;
 }
 
 .intro .wrapper {
-margin-top: 12rem;
+margin-top: 5rem;
 position: relative;
 }
 
@@ -59,7 +59,7 @@ display: flex;
 height: auto;
 position: absolute;
 left: 58%;
-top: 33%;
+top: 42%;
 transform: translateY(-50%);
 }
 
@@ -227,6 +227,7 @@ opacity: 0 !important;
 
 .intro .wrapper {
   align-items: center;
+  margin-top: 12rem;
 }
 
 }
