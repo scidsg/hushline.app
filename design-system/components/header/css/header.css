@@ -153,30 +153,16 @@ nav .badge {
 }
 
 @media only screen and (max-width: 768px) {
-  @media (prefers-color-scheme: light) {
-    header nav ul {
-      box-shadow: var(--shadow-lm);
-      background-color: white;
-      border: var(--border-dark);
-    }
-
-    header nav ul li a:hover {
-      box-shadow: inset 3px 0 var(--color-dark);
-    }
+  header nav ul {
+    box-shadow: var(--shadow-lm);
+    background-color: white;
+    border: var(--border-dark);
   }
 
-  @media (prefers-color-scheme: dark) {
-    header nav ul {
-      box-shadow: var(--shadow-dm);
-      background-color: var(--color-shade-dm);
-      border: var(--border-light);
-
-    }
-
-    header nav ul li a:hover {
-      box-shadow: inset 3px 0 var(--color-light);
-    }
+  header nav ul li a:hover {
+    box-shadow: inset 3px 0 var(--color-dark);
   }
+  
 
   header nav ul {
     display: none;
