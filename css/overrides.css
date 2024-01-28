@@ -31,6 +31,7 @@
 
 #hardware img {
 	max-width: 480px;
+	display: none;
 } 
 
 header {
@@ -88,6 +89,61 @@ nav .btnLrg {
 .card .description {
 	padding-top: var(--spacing-large) !important;
 	padding-bottom: var(--spacing-large) !important;
+}
+
+#hardware {
+    background-image: url('../design-system/images/website/personal-server-bg.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative; /* This ensures that the pseudo-element is positioned relative to this container */
+}
+
+#hardware::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(125, 37, 193, .5); /* Adjust color and opacity */
+    z-index: 1;
+	  filter: brightness(130%);
+}
+
+#hardware > * {
+    position: relative;
+    z-index: 2;
+}
+
+#hardware .featureGroup .description,
+#hardware .featureGroup {
+	align-items: start;
+	text-align: left;
+	justify-content: start;
+}
+
+#hardware .featureGroup {
+	width: fit-content;
+	padding: 2.5rem 1.5rem;
+	border-radius: .5rem;
+	backdrop-filter: blur(1rem);
+	color: white;
+}
+
+#hardware p,
+#hardware h3 {
+	color: white;
+}
+
+#hardware .featureGroup .description .icon {
+	align-self: initial !important;
 }
 
 @media only screen and (max-width: 1280px) {
