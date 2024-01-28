@@ -112,7 +112,7 @@ nav .btnLrg {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(125, 37, 193, .5); /* Adjust color and opacity */
+    background-color: rgba(125, 37, 193, .25); /* Adjust color and opacity */
     z-index: 1;
 	  filter: brightness(130%);
 }
@@ -134,12 +134,9 @@ nav .btnLrg {
 	padding: 2.5rem 1.5rem;
 	border-radius: .5rem;
 	backdrop-filter: blur(1rem);
-	color: white;
-}
-
-#hardware p,
-#hardware h3 {
-	color: white;
+	background-color: rgba(255,255,255,.825);
+	box-shadow: 5px 5px 0 0 rgba(125, 37, 193, .5);
+	border: 2px solid rgba(125,37,193,1);
 }
 
 #hardware .featureGroup .description .icon {
