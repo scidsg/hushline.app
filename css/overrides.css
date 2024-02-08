@@ -17,6 +17,10 @@
 		background-image: url('../design-system/images/website/lm-sec.png');
 	}
 
+	.icon.users {
+		background-image: url('../design-system/images/website/lm-users.png');
+	}
+
 	.icon.open {
 		background-image: url('../design-system/images/website/lm-contrib.png');
 	}
