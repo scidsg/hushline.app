@@ -1,120 +1,114 @@
-
-
-	.banner {
-		background-color: #7D25C1;
-	}
-
-	header {
-		outline: var(--border-dark);
-		box-shadow: var(--shadow-lm);
-	}
-
-	.icon.verified {
-		background-image: url('../design-system/images/website/lm-safe.png');
-	}
-
-	.icon.sec {
-		background-image: url('../design-system/images/website/lm-sec.png');
-	}
-
-	.icon.users {
-		background-image: url('../design-system/images/website/lm-users.png');
-	}
-
-	.icon.open {
-		background-image: url('../design-system/images/website/lm-contrib.png');
-	}
-
-	.icon.proj {
-		background-image: url('../design-system/images/website/lm-project.png');
-	}
-
-	.icon.gift {
-		background-image: url('../design-system/images/website/lm-donor.png');
-	}
-
-	.icon.mail {
-		background-image: url('../design-system/images/website/lm-mail.png');
-	}
+.banner {
+    background-color: #7D25C1;
+}
 
 header {
-	width: fit-content;
-	margin: 1rem auto 0 auto;
-	border-radius: 10rem;
+    outline: var(--border-dark);
+    box-shadow: var(--shadow-lm);
+}
+
+.icon.verified {
+    background-image: url('../design-system/images/website/lm-safe.png');
+}
+
+.icon.sec {
+    background-image: url('../design-system/images/website/lm-sec.png');
+}
+
+.icon.users {
+    background-image: url('../design-system/images/website/lm-users.png');
+}
+
+.icon.open {
+    background-image: url('../design-system/images/website/lm-contrib.png');
+}
+
+.icon.proj {
+    background-image: url('../design-system/images/website/lm-project.png');
+}
+
+.icon.gift {
+    background-image: url('../design-system/images/website/lm-donor.png');
+}
+
+.icon.mail {
+    background-image: url('../design-system/images/website/lm-mail.png');
+}
+
+header {
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+    border-radius: 10rem;
 }
 
 header .wrapper {
-	padding: 0 .5rem;
+    padding: 0 .5rem;
 }
 
 header .logo {
-	margin: 0 2rem 0 .75rem;
+    margin: 0 2rem 0 .75rem;
 }
 
 nav .btn {
-	margin: var(--spacing-small) 0 var(--spacing-small) var(--spacing-xsmall) !important;
+    margin: var(--spacing-small) 0 var(--spacing-small) var(--spacing-xsmall) !important;
 }
 
 .intro h2 {
-	font-family: "Sans Bold", sans-serif;
-	width: 60%;
+    font-family: "Sans Bold", sans-serif;
+    width: 60%;
 }
 
-h2, h3, h4 {
-	font-family: "Sans Bold", sans-serif;
+h2,
+h3,
+h4 {
+    font-family: "Sans Bold", sans-serif;
 }
 
-h2, h3, h4 {
-	line-height: var(--line-height-heading) !important;
+h2,
+h3,
+h4 {
+    line-height: var(--line-height-heading) !important;
 }
 
 
 header nav a {
-	font-size: calc(var(--font-size-xsmall) * 1.125);
+    font-size: calc(var(--font-size-xsmall) * 1.125);
 }
 
 nav .btnLrg {
-	padding: calc(var(--spacing-small) * 1.5) var(--spacing-base) !important;
+    padding: calc(var(--spacing-small) * 1.5) var(--spacing-base) !important;
 }
 
 .card img {
-	justify-self: center;
-	margin-top: 0;
-	width: 120px;
-	height: 120px;
+    justify-self: center;
+    margin-top: 0;
+    width: 120px;
+    height: 120px;
 }
 
 .card .description {
-	padding-top: var(--spacing-large) !important;
-	padding-bottom: var(--spacing-large) !important;
+    padding-top: var(--spacing-large) !important;
+    padding-bottom: var(--spacing-large) !important;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {}
 
-}
-
-@media only screen and (max-width: 1024px) {
-
-}
+@media only screen and (max-width: 1024px) {}
 
 @media only screen and (max-width: 960px) {
-	.card .description {
-		align-items: center;
-		text-align: center;
-		width: 66%;
-	}
+    .card .description {
+        align-items: center;
+        text-align: center;
+        width: 66%;
+    }
 }
 
-@media only screen and (max-width: 768px) {
-
-}
+@media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 640px) {
-	.card .description {
-		width: 90%;
-	}
+    .card .description {
+        width: 90%;
+    }
 }
 
-@media only screen and (max-width: 480px) {
-
-}
+@media only screen and (max-width: 480px) {}
