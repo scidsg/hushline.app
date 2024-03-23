@@ -33,6 +33,10 @@
 		background-image: url('../design-system/images/website/lm-donor.png');
 	}
 
+	.icon.mail {
+		background-image: url('../design-system/images/website/lm-mail.png');
+	}
+
 header {
 	width: fit-content;
 	margin: 1rem auto 0 auto;
