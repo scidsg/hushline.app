@@ -89,7 +89,7 @@ font-size: var(--font-size-code) !important;
 
 .intro .btn {
 margin-top: var(--spacing-medium);
-margin-bottom: var(--spacing-large);
+margin-bottom: 0;
 font-size: var(--font-size-small);
 }
 
