@@ -91,6 +91,10 @@ nav .btnLrg {
     padding-bottom: var(--spacing-large) !important;
 }
 
+.intro .wrapper {
+    margin-top: 1.5rem;
+}
+
 @media only screen and (max-width: 1280px) {}
 
 @media only screen and (max-width: 1024px) {}
