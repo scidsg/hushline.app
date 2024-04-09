@@ -23,6 +23,10 @@ header {
     background-image: url('../design-system/images/website/lm-contrib.png');
 }
 
+.icon.faq {
+    background-image: url('../design-system/images/website/lm-crit.png');
+}
+
 .icon.proj {
     background-image: url('../design-system/images/website/lm-project.png');
 }
@@ -95,6 +99,33 @@ nav .btnLrg {
     margin-top: 1.5rem;
 }
 
+.faq-answer {
+    display: none;
+    margin-top: 5px;
+}
+
+.faq-question {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none; /* To remove the underline from the anchor tags */
+}
+
+/* Style the list without list bullets */
+.faq-list {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+}
+
+ol, ul {
+    max-width: 640px;
+  }
+
+.faq-list ol {
+    margin-left: 1.25rem;
+}
+
 @media only screen and (max-width: 1280px) {}
 
 @media only screen and (max-width: 1024px) {}
@@ -112,6 +143,10 @@ nav .btnLrg {
 @media only screen and (max-width: 640px) {
     .card .description {
         width: 90%;
+    }
+
+    .intro .wrapper {
+        margin-top: 11rem;
     }
 }
 

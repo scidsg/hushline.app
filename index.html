@@ -149,6 +149,88 @@
 			</div>
 		</section>
 
+		<section>
+			<div class="wrapper">
+				<div class="description">
+					<div class="icon faq"></div>
+					<h3>Frequently Asked Questions</h3>
+				</div>
+				<ul class="faq-list">
+			        <li>
+			            <h4><a href="#" class="faq-question">How anonymous is Hush Line?</a></h4>
+			            <div class="faq-answer">
+			            	<p>Hush Line requires no PII for tip line owners to use the service, including an email address. We scrub IP addresses and country codes from access logs and don't timestamp messages or relate account data in any way.</p>
+
+							<p>Message submitters are not required to create an account and may use the Onion service, making their connection and activity completely anonymous. Attackers may be able to observe network connections, which could reveal your IP address. In scenarios like this, users are encouraged to use our onion service.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">Why not just use Signal?</a></h4>
+			            <div class="faq-answer">
+			            	<p>Signal is great. But for someone to send you a message, they must first:</p>
+    							<ol>
+									<li>Sign in to an app store</li>
+									<li>Download Signal</li>
+									<li>Register their phone number (yes, you still have to do this, even with usernames.)</li>
+									<li>Find your username or phone number.</li>
+									<li>Contact you.</li>
+								</ol>
+							<p>Signal is a perfect tool for talking to someone you know or with whom you have a baseline level of trust. It is linked to your phone, and you need a device with a phone number to use it.</p>
+							<p>In contrast, Hush Line works with what's already on your phone or computer. All you need is a web browser to send a message anonymously. The end-user submitting a message needs no technical proficiency or prior knowledge to use the app immediately.</p>
+
+							<p>Hush Line aims to be the first step for whistleblowers. When they don't know what to do first or next, a safe and effortless way to contact the right person should be the least of their worries. Once a baseline level of trust is established, other tools like Signal are more appropriate.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">How is Hush Line different from SecureDrop?</a></h4>
+			            <div class="faq-answer">
+			            	<p>SecureDrop is built for very specific use cases: A.) To safely manage files sent by anonymous people so that a device or network isn't accidentally compromised, and  B.) To provide a censorship-resistant and anonymous method of sending and receiving those files. When someone submits a message, an account is created for them, allowing two-way communication. To use SecureDrop:</p>
+							<p>The tip line owner must:</p>
+    						<ol>
+								<li>Do A LOT. SecureDrop is an "on-prem" solution, requiring you to store multiple servers locally using a dedicated network, all focsed on isolated tasks. Think of SecureDrop as a fixed workflow for receiving files. You must do all of the things correctly to assume safe operation. It requires a lot of time, which means a lot of money. The installation and setup of the system, in most cases, needs to be conducted by a member of the SD team, with service contracts helping to ensure proper maintenance of the infrastructure.</li>
+							</ol>
+							<p>The message submitter must:</p>
+							<ol>
+								<li>Learn how to use SecureDrop.</li>
+								<li>Download Tor Browser.</li>
+								<li>Find the correct Onion address for their recipient.</li>
+								<li>Submit a message.</li>
+								<li>Save their account credentials.</li>
+								<li>Check back for progress.</li>
+							</ol>
+							<p>Hush Line is not a replacement for SecureDrop. Instead, it's for organizations who might not need nation-state levels of defense for all of their anonymous tips. We simplify our threat model by being a text-only service, meaning there is no possibility of receiving files that could harm your computer or network.</p>
+							<p>We're a managed service, so you don't have to worry about maintaining physical infrastructure or learning new workflows. In fact, to use our product, you don't have to log back into the service after setting it up. We deliver messages directly to your email inbox, so you can set it, forget it, and never miss a beat. Users can add their own public PGP key, giving them end-to-end encryption and ensuring messages cannot be read by anyone but the receiver.</p>
+							<p>Hush Line is also available on a clearnet address, or through our onion service. Using the browser already on your computer or phone, you can easily submit a message without ever downloading a new app. Users who need higher levels of anonymity may optionally use our onion service, requiring them to download Tor Browser. This flexibility allows for our service to be used for benign use cases all the way to Tor-only (dare we say) nation-state levels of defense.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">Why not fork SecureDrop's code?</a></h4>
+			            <div class="faq-answer">
+			            	<p>While open-source, forking SecureDrop would require significant rework and lock us into chasing dependencies as the SD project evolves. Building a new solution allows optimizing Hush Line as an easy-to-use hosted service.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">Why Python?</a></h4>
+			            <div class="faq-answer">
+			            	<p>We use Python and the Flask framework because they're well-documented and supported. The developer ecosystem is rich with extensions for everything from user authentication to message encryption. Python is also one of the most used languages, making the project accessible to a greater number of engineers.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">Why can't I receive files?</a></h4>
+			            <div class="faq-answer">
+			            	<p>Receiving files comes with risk, and the functionality is only sometimes necessary. Moreover, we challenge the need to immediately receive files by asking the question: Should you be receiving files anonymously without any baseline level of trust? If so, there are tools for that, but we don't recommend them.</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">How do I verify a recipient is legitimate?</a></h4>
+			            <div class="faq-answer">
+			            	<p>Hush Line offers human-verified accounts for journalists, organizations, and public figures so you can ensure you're communicating with the right recipient.</p>
+			            </div>
+			        </li>
+			    </ul>
+			</div>
+		</section>
+
 		<section class="featureSection">
 			<div class="wrapper">
 				<div class="group featureGroup">
@@ -202,6 +284,7 @@
 
 	<script src="design-system/js/jquery-min.js"></script>
 	<script src="design-system/js/design-system.js"></script>
+	<script src="design-system/js/faq.js"></script>
 
 </body>
 
