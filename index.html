@@ -162,7 +162,22 @@
 			            <div class="faq-answer">
 			            	<p>Hush Line requires no PII for tip line owners to use the service, including an email address. We scrub IP addresses and country codes from access logs and don't timestamp messages or relate account data in any way.</p>
 
-							<p>Message submitters are not required to create an account and may use the Onion service, making their connection and activity completely anonymous. Attackers may be able to observe network connections, which could reveal your IP address. In scenarios like this, users are encouraged to use our onion service.</p>
+			            	<p>While we do not log IP addresses, attackers who have the capabilities to observe network connections may be able to see your IP address if using our clearnet address.</p>
+
+							<p>We're also proud to offer an Onion service for users with advanced privacy needs. The Onion site can be accessed using Tor Browser, making connections and activity completely anonymous.</p>
+
+							<p>Message submitters are not required to create an account and may use the Onion service.</p>
+
+							<p>But there are plenty of ways to deanonymize yourself... 👇</p>
+			            </div>
+			        </li>
+			        <li>
+			            <h4><a href="#" class="faq-question">How can I be deanonymized?</a></h4>
+			            <div class="faq-answer">
+			            	<p>Neither by us scrubbing IPs, nor you using Tor or Signal are silver bullets, and there are many ways to out yourself. <a href="https://github.com/scidsg/project-info/blob/main/hush-line/5.%20Research/2.%20Legal/apple-v-andrew-aude.pdf" target="_blank" rel="noopener noreferrer">Take, for example, the case of Apple v. Andrew Aude</a>. He was using Signal on a work-issued phone. Even if he was using Tor in combination, if your employer can just take screenshots of your device, no amount of encryption or technology will keep you private.</p>
+			            	<p>The lesson: never use your work-issued devices or employer-owned network to connect to a site you want to keep private.</p>
+			            	<p>The best way to ensure anonymity is to use a Tor-only amnesiac operating system like Tails or a Whonix disposable VM on Qubes on an uncompromised device and network that you do not own or are related to, preferably using an updated device on a network that already has a lot of traffic.</p>
+			            	<p>Keep in mind that this level of anonymity isn't necessary for all scenarios where you might want to send an anonymous tip. Always consider: What are you protecting, and who are you protecting it from? A message to the local newspaper about the noisy neighborhood construction? Or national security secrets from an authoritarian government?</p>
 			            </div>
 			        </li>
 			        <li>
@@ -188,7 +203,7 @@
 			            	<p>SecureDrop is built for very specific use cases: A.) To safely manage files sent by anonymous people so that a device or network isn't accidentally compromised, and  B.) To provide a censorship-resistant and anonymous method of sending and receiving those files. When someone submits a message, an account is created for them, allowing two-way communication. To use SecureDrop:</p>
 							<p>The tip line owner must:</p>
     						<ol>
-								<li>Do A LOT. SecureDrop is an "on-prem" solution, requiring you to store multiple servers locally using a dedicated network, all focsed on isolated tasks. Think of SecureDrop as a fixed workflow for receiving files. You must do all of the things correctly to assume safe operation. It requires a lot of time, which means a lot of money. The installation and setup of the system, in most cases, needs to be conducted by a member of the SD team, with service contracts helping to ensure proper maintenance of the infrastructure.</li>
+								<li>Do A LOT. SecureDrop is an "on-prem" solution, requiring you to store multiple servers locally, all focsed on isolated tasks, using a dedicated network. Think of SecureDrop as a fixed workflow for receiving files. You must do all of the things correctly to assume safe operation. It requires a lot of time, which means a lot of money. The installation and setup of the system, in most cases, needs to be conducted by a member of the SD team, with service contracts helping to ensure proper maintenance of the infrastructure.</li>
 							</ol>
 							<p>The message submitter must:</p>
 							<ol>
