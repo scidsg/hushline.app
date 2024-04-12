@@ -144,6 +144,9 @@ ol, ul {
     transform: rotate(-180deg); /* Rotate the arrow */
 }
 
+#hardware {
+    background-color: var(--color-light-translucent);
+}
 
 @media only screen and (max-width: 1280px) {}
 
