@@ -153,6 +153,7 @@ ol, ul {
     padding-left: .5rem;
     padding-right: .5rem;
     line-height: 2.75;
+    font-size: .9125rem;
 }
 
 #hardware .group img {
