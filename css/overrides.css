@@ -148,6 +148,13 @@ ol, ul {
     background-color: var(--color-light-translucent);
 }
 
+.faq-list code {
+    line-break: anywhere;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    line-height: 2.75;
+}
+
 @media only screen and (max-width: 1280px) {}
 
 @media only screen and (max-width: 1024px) {}
