@@ -155,6 +155,16 @@ ol, ul {
     line-height: 2.75;
 }
 
+#hardware .group img {
+  scale: 1.25;
+  transform-origin: left
+}
+
+#hardware {
+  overflow: hidden;
+}
+
+
 @media only screen and (max-width: 1280px) {}
 
 @media only screen and (max-width: 1024px) {}
@@ -171,7 +181,12 @@ ol, ul {
     }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    #hardware .group img {
+      scale: 1;
+      transform-origin: left
+    }
+}
 
 @media only screen and (max-width: 640px) {
     .card .description {
