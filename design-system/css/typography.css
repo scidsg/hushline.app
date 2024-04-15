@@ -98,26 +98,26 @@ article h6 {
 
 }
 
-h2 {
+h1 {
   font-size: var(--font-size-1);
   line-height: var(--line-height-tighter);
   margin-top: var(--spacing-base);
   margin-bottom: var(--spacing-base);
 }
 
-h3 {
+h2 {
   font-size: var(--font-size-2);
 }
 
-h4 {
+h3 {
   font-size:  var(--font-size-3);
 }
 
-h5 {
+h4 {
   font-size:  var(--font-size-4);
 }
 
-h6 {
+h5 {
   font-size:  var(--font-size-5);
 }
 
@@ -168,52 +168,52 @@ code {
 }
 
 @media only screen and (max-width: 1280px) {
-  h2 {
+  h1 {
     font-size: calc(var(--font-size-1) * .9);
   }
 
-  h3 {
+  h2 {
     font-size: calc(var(--font-size-2) * .9);
   }
 
-  h4 {
+  h3 {
     font-size: calc(var(--font-size-3) * .9);
   }
 
-  h5 {
+  h4 {
     font-size: calc(var(--font-size-4) * .9);
   }
 
-  h6 {
+  h5 {
     font-size: calc(var(--font-size-5) * .9);
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  h2 {
+  h1 {
     font-size: calc(var(--font-size-1) * .8);
   }
 }
 
 @media only screen and (max-width: 768px) {
 
-  h2 {
+  h1 {
     font-size: calc(var(--font-size-1) * .7);
   }
 
-  h3 {
+  h2 {
     font-size: calc(var(--font-size-2) * .8);
   }
 
-  h4 {
+  h3 {
     font-size: calc(var(--font-size-3) * .8);
   }
 
-  h5 {
+  h4 {
     font-size: calc(var(--font-size-4) * .8);
   }
 
-  h6 {
+  h5 {
     font-size: calc(var(--font-size-5) * .8);
   }
 
@@ -221,23 +221,23 @@ code {
 
 @media only screen and (max-width: 640px) {
 
-  h2 {
+  h1 {
     font-size: calc(var(--font-size-1) * .7);
   }
 
-  h3 {
+  h2 {
     font-size: calc(var(--font-size-2) * .7);
   }
 
-  h4 {
+  h3 {
     font-size: calc(var(--font-size-3) * .7);
   }
 
-  h5 {
+  h4 {
     font-size: calc(var(--font-size-4) * .7);
   }
 
-  h6 {
+  h5 {
     font-size: calc(var(--font-size-5) * .7);
   }
 
@@ -251,7 +251,7 @@ code {
 
 @media only screen and (max-width: 480px) {
 
-  h2 {
+  h1 {
     font-size: calc(var(--font-size-1) * .6);
   }
 

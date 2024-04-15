@@ -37,10 +37,11 @@ header .wrapper {
   flex-direction: row;
 }
 
-header h1 {
+header a.logo {
   width: fit-content;
   font-size: var(--font-size-logo) !important;
   margin: 0;
+  font-family: 'Sans Bold', serif;
 }
 
 header .logo {
@@ -67,7 +68,7 @@ header a {
   letter-spacing: var(--kern-narrow);
 }
 
-header h1 a:hover {
+header a.logo:hover {
   text-decoration: underline;
 }
 

@@ -42,7 +42,7 @@
   margin-top: 0;
 }
 
-.featureSection h3 + .featureGroup {
+.featureSection h2 + .featureGroup {
   margin-top: var(--spacing-large);
 }
 
@@ -102,10 +102,10 @@ article {
   padding: 0 0 0 2rem;
 }
 
+.description h2,
 .description h3,
 .description h4,
-.description h5,
-.description h6 {
+.description h5 {
   margin: 0;
   width: 66%;
 }
@@ -163,21 +163,21 @@ img.avatarLg {
   margin: var(--spacing-large) 0;
 }
 
+.group .description h2,
 .group .description h3,
 .group .description h4,
-.group .description h5,
-.group .description h6 {
+.group .description h5 {
   width: 100%;
 }
 
+.groupRow .description h2,
 .groupRow .description h3,
 .groupRow .description h4,
-.groupRow .description h5,
-.groupRow .description h6 {
+.groupRow .description h5 {
   width: 100%;
 }
 
-.groupRow .description h4 {
+.groupRow .description h3 {
   width: 100%;
 }
 
@@ -214,7 +214,7 @@ img.avatarLg {
   text-align: center;
 }
 
-.featureSection h3 {
+.featureSection h2 {
   width: 100%;
 }
 
@@ -231,7 +231,7 @@ img.avatarLg {
   align-items: center;
 }
 
-.featureSection .wrapper h3 > .group.featureGroup {
+.featureSection .wrapper h2 > .group.featureGroup {
   margin-top: 0;
 }
 
@@ -255,10 +255,10 @@ img.avatarLg {
 }
 
 @media only screen and (max-width: 1024px) {
+  .description h2,
   .description h3,
   .description h4,
-  .description h5,
-  .description h6 {
+  .description h5 {
     width: 80%;
   }
 
@@ -266,7 +266,7 @@ img.avatarLg {
     margin: var(--spacing-xlarge) 0;
   }
 
-  .groupRow .description h4 {
+  .groupRow .description h3 {
     width: 100%;
   }
 }
@@ -322,7 +322,7 @@ img.avatarLg {
     align-items: center;
   }
 
-  .team h3, .team .description h4 {
+  .team h2, .team .description h3 {
     text-align: center;
     width: 100%;
   }
@@ -345,10 +345,10 @@ img.avatarLg {
     padding: 0;
   }
 
+  .description h2,
   .description h3,
   .description h4,
-  .description h5,
-  .description h6 {
+  .description h5 {
     margin: 0;
     width: 100%;
   }
