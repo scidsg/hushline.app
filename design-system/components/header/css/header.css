@@ -52,7 +52,6 @@ header .logo {
   display: flex;
   width: fit-content;
   position: relative;
-  top: -1px;
   align-self: center;
 }
 
