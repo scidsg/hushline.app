@@ -107,7 +107,6 @@ nav .btnLrg {
 .faq-question {
     display: flex;
     padding: 10px 0;
-    color: #333;
     cursor: pointer;
     align-items: center;
     width: fit-content;
