@@ -13,6 +13,7 @@
   --font-sans-bold: 'Atkinson Bold', Helvetica, Arial, sans-serif;
 
   --font-size-base: 1.125rem;
+  --font-size-logo: 1.25rem;
   --font-size-small: .875rem;
   --font-size-smallest: .75rem;
 
@@ -217,7 +218,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-logo);
 }
 
 header nav {
