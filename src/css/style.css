@@ -106,6 +106,10 @@ p {
     word-break: break-word;
 }
 
+p, ol, ul, li {
+    font-size: var(--font-size-base);
+}
+
 p.badge {
     background-color: white;
     color: var(--color-brand);
