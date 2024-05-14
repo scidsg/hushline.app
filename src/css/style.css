@@ -1105,6 +1105,12 @@ body.landing .feature .description p {
 
 }
 
+@media only screen and (max-height: 701px) {
+  .intro h2 {
+    font-size: calc(var(--font-size-1) * .8);
+  }
+}
+
 @media only screen and (max-width: 640px) {
   header nav .primaryBtn {
     margin-left: .5rem;
