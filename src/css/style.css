@@ -1032,7 +1032,7 @@ body.landing .feature .description p {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1000px) {
   .intro h2 {
     font-size: calc(var(--font-size-1) * .9);
   }
