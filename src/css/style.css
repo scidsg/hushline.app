@@ -1052,7 +1052,7 @@ footer {
 }
 
 footer p {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-smallest);
 }
 
 body.landing .feature .description p {
