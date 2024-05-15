@@ -5,6 +5,7 @@
   --color-text-light: #595959;
   --color-highlight: rgba(125,37,193,.1);
   --color-brand-bg: #fbf3ff;
+  --color-bg: #FAFAFD;
 
   --border: 1px solid var(--color-border);
 
@@ -108,6 +109,14 @@ p {
 
 p, ol, ul, li {
     font-size: var(--font-size-base);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 1rem 0;
 }
 
 p.badge {
@@ -619,6 +628,10 @@ a.dropbtn:hover {
   background-size: cover;
 }
 
+.icon.contact {
+  background-image: url('../img/icon-contact.png');
+}
+
 .icon.verified {
   background-image: url('../img/icon-verified.png');
 }
@@ -907,6 +920,7 @@ ol, ul {
 .cards .wrapper {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 .cards .description {
@@ -919,6 +933,13 @@ ol, ul {
   flex-direction: column;
   align-content: center;
   flex: 1 1 0px;
+}
+
+.cards .description:only-of-type {
+    align-items: center;
+    max-width: 640px;
+    align-self: center;
+    text-align: center;
 }
 
 .cards img {
@@ -1015,13 +1036,17 @@ section.why {
   order: 1;
 }
 
+.contact {
+    background-color: var(--color-bg);
+}
+
 /*FOOTER*/
 
 footer {
   display: flex;
   justify-content: center;
   position: initial;
-  background-color: #FAFAFD;
+  background-color: var(--color-bg);
 }
 
 footer p {
@@ -1157,6 +1182,9 @@ body.landing .feature .description p {
 
   header nav ul.show {
     top: 3.325rem;
+  }
+  header h1 {
+    margin-right: 1rem;
   }
 }
 
