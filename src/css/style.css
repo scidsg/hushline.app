@@ -6,8 +6,10 @@
   --color-highlight: rgba(125,37,193,.1);
   --color-brand-bg: #fbf3ff;
   --color-bg: #FAFAFD;
+  --color-brand-gradient: linear-gradient(135deg, rgba(125,37,193,1) 0%, rgba(135,66,187,1) 100%);
 
   --border: 1px solid var(--color-border);
+  --shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.15);
 
   --font-mono: 'IBM Plex Mono', monospace;
   --font-sans: 'Atkinson Hyperlegible', Helvetica, Arial, sans-serif;
@@ -179,7 +181,7 @@ h1.submit {
     border: var(--border);
     padding: 1.125rem;
     border-radius: .25rem;
-    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
     margin: .5rem 0;
     background-color: white;
 }
@@ -462,7 +464,7 @@ a.dropbtn:hover {
   position: absolute;
   background-color: white;
   width: fit-content;
-  box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.2);
+  box-shadow: var(--shadow);
   z-index: 1;
   border-radius: .25rem;
   top:  3.5rem;
@@ -576,7 +578,7 @@ a.dropbtn:hover {
         top: 3.825rem;
         background-color: white;
         width: fit-content;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow);
         padding: 1rem;
         box-sizing: border-box;
         z-index: 100;
@@ -770,7 +772,7 @@ header.island {
   padding: .5rem .5rem .5rem 1rem;
   min-height: initial;
   outline: var(--border);
-  box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.15);
+  box-shadow: var(--shadow);
 }
 
 header.island nav ul {
@@ -928,7 +930,7 @@ ol, ul {
   border-radius: .5rem;
   outline: var(--border);
   background-color: white;
-  box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.15);
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -1055,6 +1057,33 @@ footer p {
 
 body.landing .feature .description p {
   margin-bottom: 1rem;
+}
+
+#business.cards .description {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#business {
+    background: var(--color-brand);
+    background: var(--color-brand-gradient);
+    color: white;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    outline: 1px solid rgba(255,255,255,.1);
+}
+
+#business p {
+    text-shadow: 0px .125rem .5rem rgba(0,0,0,0.4);
+}
+
+#business h2 {
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 0px .125rem .5rem rgba(0,0,0,0.4);
 }
 
 @media only screen and (max-width: 1000px) {
