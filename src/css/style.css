@@ -853,6 +853,7 @@ p.badge {
 .faq-answer {
     display: none;
     margin-top: 5px;
+    padding-left: 2.625rem;
 }
 
 .faq-question {
@@ -1112,6 +1113,11 @@ body.landing .feature .description p {
   .arrow {
     width: 1.25rem;
   }
+
+  .faq-answer {
+    padding-left: 2.325rem;
+  }
+
   .statement p {
     font-size: calc(1.75rem * .9);
   }
