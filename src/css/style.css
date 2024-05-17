@@ -1038,8 +1038,9 @@ section.why {
   order: 1;
 }
 
-.contact {
+section.contact {
     background-color: var(--color-bg);
+    padding-bottom: 3rem;
 }
 
 /*FOOTER*/
@@ -1224,6 +1225,4 @@ body.landing .feature .description p {
       margin: 1rem;
       padding: 3rem 1rem;
     }
-
 }
-
