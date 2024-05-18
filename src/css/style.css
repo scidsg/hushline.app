@@ -3,7 +3,6 @@
   --color-brand: #7D25C1;
   --color-text: #333;
   --color-text-light: #595959;
-  --color-highlight: rgba(125,37,193,.1);
   --color-bg: #FAFAFD;
   --color-brand-bg: #fbf3ff;
   --color-brand-dark: #370C6B;
@@ -13,8 +12,8 @@
   --radius-sharp: calc(var(--radius-round) * .005); /*1 = round, .0005 almost sharp*/
   --border: 1px solid var(--color-border);
   --shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.15);
-  --shadow-hard: 0px 1.5px 0px 0px rgba(125,37,193,.25);
-  --shadow-inset: inset 0px 2px 0px rgba(125,37,193,.25);
+  --shadow-hard: 0px 2px 0 0px rgba(125,37,193,.25);
+  --shadow-inset: inset 0px 2px 0 rgba(125,37,193,.25);
 
   --font-mono: 'IBM Plex Mono', monospace;
   --font-sans: 'Atkinson Hyperlegible', Helvetica, Arial, sans-serif;
@@ -349,6 +348,7 @@ header .btn {
 
 .btn:active {
     box-shadow: var(--shadow-inset);
+    background-color: var(--color-bg);
 }
 
 .mobileNav {
