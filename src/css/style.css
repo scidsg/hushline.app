@@ -348,7 +348,6 @@ header .btn {
 
 .btn:active {
     box-shadow: var(--shadow-inset);
-    background-color: var(--color-bg);
 }
 
 .mobileNav {
