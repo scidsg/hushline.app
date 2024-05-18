@@ -4,8 +4,9 @@
   --color-text: #333;
   --color-text-light: #595959;
   --color-highlight: rgba(125,37,193,.1);
-  --color-brand-bg: #fbf3ff;
   --color-bg: #FAFAFD;
+  --color-brand-bg: #fbf3ff;
+  --color-brand-dark: #370C6B;
   --color-brand-gradient: linear-gradient(135deg, rgba(125,37,193,1) 0%, rgba(135,66,187,1) 100%);
 
   --radius-round: 50vw;
@@ -548,7 +549,7 @@ a.dropbtn:hover {
 }
 
 .highlight {
-    background-color: #c6ffff;
+    background-color: var(--color-brand);
     padding: .125rem .25rem;
     border-radius: .25rem;
     font-family: var(--font-sans-bold);
@@ -826,7 +827,7 @@ header nav .primaryBtn {
 .intro h2 {
   font-size: var(--font-size-1);
   margin-bottom: .5rem;
-  color: #370C6B;
+  color: var(--color-brand-dark);
 }
 
 .intro h2,
