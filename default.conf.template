@@ -5,11 +5,11 @@ server {
     location / {
         root   /usr/share/nginx/html;
         index  index.html index.htm;
-        add_header Onion-Location http://${ONION_HOSTNAME}$request_uri;
+        add_header Onion-Location http://$ONION_HOSTNAME$request_uri;
     }
 
     location ~ ^/tips/(.*)$ {
-        proxy_pass https://${APP_HOSTNAME}/$1;
+        proxy_pass https://$APP_HOSTNAME/$1;
         proxy_set_header Host $APP_HOSTNAME;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
