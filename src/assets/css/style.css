@@ -353,13 +353,24 @@ header .btn {
 .mobileNav {
     background-image: url('../img/icon-menu.png');
     background-size: contain;
-    width: 2.5rem;
+    background-color: transparent;
+    color: var(--color-text);
+    width: auto;
+    min-width: auto;
+    min-height: auto;
     height: 2.5rem;
     background-repeat: no-repeat;
-    padding-left: 2.25rem;
+    padding: 0 0.25rem 0 2.25rem;
     align-items: center;
     font-size: var(--font-size-small);
+    font-family: var(--font-sans);
     font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+
+.mobileNav:focus {
+    outline: 1px double var(--color-text);
 }
 
 
@@ -1063,7 +1074,7 @@ footer {
 }
 
 footer p {
-  font-size: var(--font-size-smallest);
+  font-size: var(--font-size-4);
 }
 
 body.landing .feature .description p {

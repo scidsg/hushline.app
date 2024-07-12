@@ -33,7 +33,7 @@
     <header class="island">
         <h1>🤫 Hush Line</h1>
         <nav>
-            <a class="mobileNav btnIcon" aria-label="Navigation menu">Menu</a>
+            <button type="button" class="mobileNav btnIcon" aria-label="Navigation menu">Menu</button>
             <ul>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>
@@ -42,8 +42,8 @@
                 </li>
                 <li><a href="https://github.com/scidsg/hushline/tree/main/docs" target="_blank"
                         rel="noopener noreferrer">Docs</a></li>
-                <a class="btn" href="https://beta.hushline.app/login" target="_blank"
-                    rel="noopener noreferrer">Login</a>
+                <li><a class="btn" href="https://beta.hushline.app/login" target="_blank"
+                 rel="noopener noreferrer">Login</a></li>
             </ul>
             <a class="btn primaryBtn" href="https://beta.hushline.app/register" target="_blank"
                 rel="noopener noreferrer">Register</a>
@@ -177,7 +177,8 @@
                 </div>
                 <ul class="faq-list">
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> How
+                        <h3><a href="#" class="faq-question">
+                          <img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
                                 anonymous is Hush Line?</a></h3>
                         <div class="faq-answer">
                             <p>Hush Line requires no personally identifying information (PII) for tip line owners to use
@@ -196,7 +197,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Is
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"  alt="chevron arrow"> Is
                                 Hush Line end-to-end encrypted?</a></h3>
                         <div class="faq-answer">
                             <p>Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
@@ -215,7 +216,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Is
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Is
                                 two-way communication available?</a></h3>
                         <div class="faq-answer">
                             <p>If the individual submitting a message feels comfortable enough to include a contact
@@ -237,7 +238,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png">Can I
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow">Can I
                                 be deanonymized?</a></h3>
                         <div class="faq-answer">
                             <p>Neither us scrubbing IPs nor you using Tor and Signal are silver bullets, and there are
@@ -294,7 +295,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Why
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
                                 not just use Signal?</a></h3>
                         <div class="faq-answer">
                             <p>Signal is great, but it's not anonymous. For someone to send you a message, they must
@@ -323,7 +324,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> How
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
                                 is Hush Line different from SecureDrop?</a></h3>
                         <div class="faq-answer">
                             <p>SecureDrop is a robust whistleblowing platform whose architecture is necessitated by very
@@ -371,7 +372,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Why
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
                                 not fork SecureDrop's code?</a></h3>
                         <div class="faq-answer">
                             <p>While open-source, forking SecureDrop would require significant rework. Building a new
@@ -379,7 +380,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Why
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
                                 Python?</a></h3>
                         <div class="faq-answer">
                             <p>We use Python and the Flask framework because they're well-documented and supported. The
@@ -389,7 +390,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Why
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Why
                                 can't I receive files?</a></h3>
                         <div class="faq-answer">
                             <p>Receiving files comes with significant risk, and the functionality is only sometimes
@@ -415,7 +416,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> How
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
                                 do I verify a recipient is legitimate?</a></h3>
                         <div class="faq-answer">
                             <p>Hush Line offers human-verified accounts for journalists, organizations, and public
@@ -427,7 +428,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Has
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Has
                                 Hush Line received an independent security audit?</a></h3>
                         <div class="faq-answer">
                             <p>Yes! In 2024, Hush Line's managed service, Personal Server, and self-hosted version
@@ -440,7 +441,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"> Where
+                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> Where
                                 can I submit a vulnerability report?</a></h3>
                         <div class="faq-answer">
                             <p>See something, say something! Submit a vulnerability report if you find a security issue,
