@@ -7,6 +7,9 @@ RUN apt-get update && \
     gettext-base \
     && rm -rf /var/lib/apt/lists/*
 
+# Prioritize IPv4 over IPv6
+RUN echo "precedence ::ffff:0:0/96  100" >> /etc/gai.conf
+
 COPY src /usr/share/nginx/html
 
 COPY default.conf.template /etc/nginx/conf.d/default.conf.template
