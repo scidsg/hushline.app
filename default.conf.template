@@ -2,7 +2,7 @@ server {
     listen       80;
     server_name  localhost;
 
-    resolver 127.0.0.11 valid=30s;
+    resolver 10.245.0.11 valid=30s;
     
     location / {
         root   /usr/share/nginx/html;
