@@ -1,6 +1,8 @@
 server {
     listen       80;
     server_name  localhost;
+
+    resolver 127.0.0.11 valid=30s;
     
     location / {
         root   /usr/share/nginx/html;
@@ -9,7 +11,7 @@ server {
     }
 
     location /tips {
-        set $tips_backend "$APP_URL";
+        set $tips_backend "$APP_URL/tips";
         proxy_pass $tips_backend;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -18,7 +20,7 @@ server {
     }
 
     location ~ ^/tips/(.*)$ {
-        set $tips_backend_path "$APP_URL/$1";
+        set $tips_backend_path "$APP_URL/tips/$1";
         proxy_pass $tips_backend_path;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
