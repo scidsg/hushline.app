@@ -1,8 +1,6 @@
 server {
     listen       80;
     server_name  localhost;
-
-    resolver 8.8.8.8 ipv4=on ipv6=off;
     
     location / {
         root   /usr/share/nginx/html;
