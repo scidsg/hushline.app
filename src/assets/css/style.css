@@ -883,6 +883,19 @@ p.badge {
     align-items: center;
     width: fit-content;
     text-decoration: none;
+    background: none;
+    text-align: left;
+    color: var(--color-text);
+    margin: 0;
+    font-size: var(--font-size-3);
+    border-radius: 0px;
+}
+
+.faq-question:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: var(--color-brand);
 }
 
 .faq-list {

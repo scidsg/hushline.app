@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
             if (currentlyOpen && currentlyOpen !== answer) {
                 currentlyOpen.style.display = 'none';
                 currentlyOpen.classList.remove('active');
+                currentlyOpen.hidden = true;
                 // Reset the arrow of the previously active question
                 var activeQuestion = document.querySelector('.faq-question.active');
                 if (activeQuestion) {
                     activeQuestion.classList.remove('active');
+                    activeQuestion.setAttribute('aria-expanded', 'false');
                     var activeArrow = activeQuestion.querySelector('.arrow');
                     activeArrow.style.transform = ''; // Reset rotation
                 }
@@ -29,11 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 answer.classList.remove('active');
                 this.classList.remove('active'); // Update question active state
                 arrow.style.transform = ''; // Reset rotation
+                answer.hidden = true;
             } else {
                 answer.style.display = 'block';
                 answer.classList.add('active');
                 this.classList.add('active'); // Update question active state
+                this.setAttribute('aria-expanded', 'true');
                 arrow.style.transform = 'rotate(-180deg)'; // Rotate arrow
+                answer.hidden = false;
             }
         });
     });
