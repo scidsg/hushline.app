@@ -194,10 +194,11 @@
                 </div>
                 <ul class="faq-list">
                     <li>
-                        <h3><a href="#" class="faq-question">
+                        <h3>
+                            <button type="button" class="faq-question" aria-controls="faq1" aria-expanded="false">
                                 <img class="arrow" src="assets/img/icon-chevron.png" alt="chevron arrow"> How
-                                anonymous is Hush Line?</a></h3>
-                        <div class="faq-answer">
+                                anonymous is Hush Line?</button></h3>
+                        <div class="faq-answer" id="faq1" hidden>
                             <p>Hush Line requires no personally identifying information (PII) for tip line owners to use
                                 the service, including an email address.</p>
                             <p>We offer an Onion service for users with advanced privacy needs, which can be accessed
@@ -215,10 +216,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq2"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Is
-                                Hush Line end-to-end encrypted?</a></h3>
-                        <div class="faq-answer">
+                                Hush Line end-to-end encrypted?</button></h3>
+                        <div class="faq-answer" id="faq2" hidden>
                             <p>Hush Line uses <a href="https://github.com/openpgpjs/openpgpjs" target="_blank"
                                     rel="noopener noreferrer">OpenPGP.js</a> for client-side encryption, giving users
                                 who add their public PGP key end-to-end encryption for their messages. Users who disable
@@ -235,10 +236,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq3"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Is
-                                two-way communication available?</a></h3>
-                        <div class="faq-answer">
+                                two-way communication available?</button></h3>
+                        <div class="faq-answer" id="faq3" hidden>
                             <p>If the individual submitting a message feels comfortable enough to include a contact
                                 method, they may choose to.</p>
                             <p>For anonymous, indirect two-way communication through Hush Line, someone submitting a
@@ -254,10 +255,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq4"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow">Can I
-                                be deanonymized?</a></h3>
-                        <div class="faq-answer">
+                                be deanonymized?</button></h3>
+                        <div class="faq-answer" id="faq4" hidden>
                             <p>Neither us scrubbing IPs nor you using Tor and Signal are silver bullets, and there are
                                 many ways to deanonymize yourself. <a
                                     href="https://github.com/scidsg/project-info/blob/main/hush-line/5.%20Research/2.%20Legal/apple-v-andrew-aude.pdf"
@@ -312,10 +313,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq5"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Why
-                                not just use Signal?</a></h3>
-                        <div class="faq-answer">
+                                not just use Signal?</button></h3>
+                        <div class="faq-answer" id="faq5" hidden>
                             <p>Signal is great, but it's not anonymous. For someone to send you a message, they must
                                 first:</p>
                             <ol>
@@ -342,10 +343,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq6"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> How
-                                is Hush Line different from SecureDrop?</a></h3>
-                        <div class="faq-answer">
+                                is Hush Line different from SecureDrop?</button></h3>
+                        <div class="faq-answer" id="faq6">
                             <p>SecureDrop is a robust whistleblowing platform whose architecture is necessitated by very
                                 specific use cases: A.) To safely manage files sent by anonymous people so that a device
                                 or network isn't accidentally compromised, and B.) To provide a censorship-resistant and
@@ -391,19 +392,19 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq7"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Why
-                                not fork SecureDrop's code?</a></h3>
-                        <div class="faq-answer">
+                                not fork SecureDrop's code?</button></h3>
+                        <div class="faq-answer" id="faq7" hidden>
                             <p>While open-source, forking SecureDrop would require significant rework. Building a new
                                 solution allows us to optimize Hush Line as an easy-to-use hosted service.</p>
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq8"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Why
-                                Python?</a></h3>
-                        <div class="faq-answer">
+                                Python?</button></h3>
+                        <div class="faq-answer" id="faq8" hidden>
                             <p>We use Python and the Flask framework because they're well-documented and supported. The
                                 developer ecosystem is rich with extensions for everything from user authentication to
                                 message encryption. Python is also one of the most used languages, making the project
@@ -411,10 +412,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq9"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Why
-                                can't I receive files?</a></h3>
-                        <div class="faq-answer">
+                                can't I receive files?</button></h3>
+                        <div class="faq-answer" id="faq9" hidden>
                             <p>Receiving files comes with significant risk, and the functionality is only sometimes
                                 necessary. It can lead to compromising your device, network, and any other device
                                 connected to it.</p>
@@ -438,10 +439,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq10"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> How
-                                do I verify a recipient is legitimate?</a></h3>
-                        <div class="faq-answer">
+                                do I verify a recipient is legitimate?</button></h3>
+                        <div class="faq-answer" id="faq10" hidden>
                             <p>Hush Line offers human-verified accounts for journalists, organizations, and public
                                 figures so you can ensure you're communicating with the right recipient. Do you need to
                                 <a href="https://github.com/scidsg/hushline/blob/main/docs/3-managed-service.md#verified-accounts"
@@ -452,10 +453,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq11"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Has
-                                Hush Line received an independent security audit?</a></h3>
-                        <div class="faq-answer">
+                                Hush Line received an independent security audit?</button></h3>
+                        <div class="faq-answer" id="faq11" hidden>
                             <p>Yes! In 2024, Hush Line's managed service, Personal Server, and self-hosted version
                                 received a security audit from <a href="https://subgraph.com/" rel="noopener noreferrer"
                                     target="_blank">Subgraph</a>, sponsored by <a href="https://www.opentech.fund/"
@@ -466,10 +467,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3><a href="#" class="faq-question"><img class="arrow" src="assets/img/icon-chevron.png"
+                        <h3><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq12"><img class="arrow" src="assets/img/icon-chevron.png"
                                     alt="chevron arrow"> Where
-                                can I submit a vulnerability report?</a></h3>
-                        <div class="faq-answer">
+                                can I submit a vulnerability report?</button></h3>
+                        <div class="faq-answer" id="faq12" hidden>
                             <p>See something, say something! Submit a vulnerability report if you find a security issue,
                                 and we'll address it immediately! <a
                                     href="https://tips.hushline.app/submit_message/scidsg" target="_blank"
