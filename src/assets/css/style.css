@@ -358,7 +358,7 @@ header .btn {
 .btnContainer {
   display: flex;
   flex-direction: row;
-  gap: .25rem;
+  gap: .5rem;
 }
 
 .mobileNav {
