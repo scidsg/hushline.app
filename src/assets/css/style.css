@@ -1321,6 +1321,6 @@ body.landing .feature .description p {
 
 @media only screen and (max-width: 480px) {
   .banner+header+.landing>.intro .wrapper {
-    margin-top: 13rem;
+    margin-top: 12rem;
   }
 }
