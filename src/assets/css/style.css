@@ -1318,3 +1318,9 @@ body.landing .feature .description p {
     padding: 3rem 1rem;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .banner+header+.landing>.intro .wrapper {
+    margin-top: 13rem;
+  }
+}
