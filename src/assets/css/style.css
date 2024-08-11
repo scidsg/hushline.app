@@ -355,6 +355,12 @@ header .btn {
   box-shadow: var(--shadow-inset);
 }
 
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: .25rem;
+}
+
 .mobileNav {
   background-image: url('../img/icon-menu.png');
   background-size: contain;
@@ -723,6 +729,7 @@ nav a,
   text-decoration: none;
   width: fit-content;
   min-width: initial;
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -787,6 +794,11 @@ section:not(.intro) {
   font-size: .9125rem;
   color: white;
 }
+
+.banner a {
+  color: white
+}
+
 
 .banner+header {
   top: 40px;
@@ -886,18 +898,18 @@ p.badge {
 }
 
 .faq-question {
-    display: flex;
-    padding: 1rem 0;
-    cursor: pointer;
-    align-items: center;
-    width: fit-content;
-    text-decoration: none;
-    background: none;
-    text-align: left;
-    color: var(--color-text);
-    margin: 0;
-    font-size: var(--font-size-3);
-    border-radius: 0px;
+  display: flex;
+  padding: 1rem 0;
+  cursor: pointer;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
+  background: none;
+  text-align: left;
+  color: var(--color-text);
+  margin: 0;
+  font-size: var(--font-size-3);
+  border-radius: 0px;
 }
 
 .faq-question:focus {
@@ -1153,6 +1165,10 @@ body.landing .feature .description p {
   margin-bottom: 0;
 }
 
+.banner+header+.landing>.intro .wrapper {
+  margin-top: 3rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .intro h2 {
     font-size: calc(var(--font-size-1) * .9);
@@ -1248,6 +1264,10 @@ body.landing .feature .description p {
     text-align: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .banner+header+.landing>.intro .wrapper {
+    margin-top: 11rem;
   }
 
   .intro h2 {
