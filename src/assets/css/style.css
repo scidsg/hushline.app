@@ -50,6 +50,11 @@
     url("../fonts/mono/IBMPlexMono-Regular.woff2") format("woff2");
 }
 
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-5);
+}
+
 body {
   background-color: var(--color-brand-bg);
   display: flex;
@@ -693,6 +698,10 @@ a.dropbtn:hover {
   background-image: url('../img/icon-mail.png');
 }
 
+.icon.donor {
+  background-image: url('../img/icon-donor.png');
+}
+
 /*GLOBAL STYLES*/
 
 body.landing {
@@ -1153,8 +1162,21 @@ body.landing .feature .description p {
   width: 240px
 }
 
-#support {
+#support,
+#donate {
   background-color: transparent;
+}
+
+#donate.cards .description {
+  justify-items: start;
+}
+
+#donate {
+  padding-top: 0;
+}
+
+.bold {
+  font-family: var(--font-sans-bold);
 }
 
 #support .btn {
