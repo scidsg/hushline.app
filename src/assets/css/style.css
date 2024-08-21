@@ -380,7 +380,7 @@ header .btn {
   align-items: center;
   font-size: var(--font-size-small);
   font-family: var(--font-sans);
-  font-weight: bold;
+  font-family: var(--font-sans-bold);
   display: inline-block;
   margin: 0;
 }
