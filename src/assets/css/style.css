@@ -1206,20 +1206,24 @@ body.landing .feature .description p {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  margin: .5rem 0;
+  margin: .375rem 0;
+  gap: .5rem;
+  line-height: 1.3;
 }
 
 .receipt {
   width: 100%;
 }
 
-.receipt-item span:first-of-type {
+.receipt-item span:first-of-type,
+#pricing ul li {
   font-family: var(--font-sans-bold);
+  font-size: calc(var(--font-size-base) * .825);
 }
 
 .receipt-item span:last-of-type {
   font-family: var(--font-mono);
-  font-size: var(--font-size-small);
+  font-size: calc(var(--font-size-small) * .925);
 }
 
 #pricing .description {
@@ -1230,10 +1234,6 @@ body.landing .feature .description p {
 #pricing ul {
   width: 100%;
   text-align: left;
-}
-
-#pricing ul li {
-  font-size: calc(var(--font-size-base) * .9);
 }
 
 .receipt h3 {
@@ -1271,11 +1271,15 @@ body.landing .feature .description p {
 
 #pricing .meta {
   font-size: var(--font-size-small);
-  display: flex;
+  display: inherit;
   text-align: left;
   line-height: 1.3;
   margin-bottom: 1rem;
   color: #595959;
+}
+
+.ps_upsell {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
