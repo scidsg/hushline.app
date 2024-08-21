@@ -670,6 +670,10 @@ a.dropbtn:hover {
   background-size: cover;
 }
 
+.icon.pricing {
+  background-image: url('../img/icon-pricing.png');
+}
+
 .icon.contact {
   background-image: url('../img/icon-contact.png');
 }
@@ -1189,6 +1193,79 @@ body.landing .feature .description p {
 
 .banner+header+.landing>.intro .wrapper {
   margin-top: 3rem;
+}
+
+#pricing {
+  margin-top: 3rem;
+  background-color: transparent;
+}
+
+.field,
+.receipt-item {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: .5rem 0;
+}
+
+.receipt {
+  width: 100%;
+}
+
+.receipt-item span:first-of-type {
+  font-family: var(--font-sans-bold);
+}
+
+.receipt-item span:last-of-type {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-small);
+}
+
+#pricing .description {
+  max-width: 640px;
+  box-sizing: border-box;
+}
+
+#pricing ul {
+  width: 100%;
+  text-align: left;
+}
+
+#pricing ul li {
+  font-size: calc(var(--font-size-base) * .9);
+}
+
+.receipt h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#pricing h3 {
+  font-size: calc(var(--font-size-3) * .85);
+  margin-bottom: 1rem;
+}
+
+#pricing h2+p {
+  max-width: 640px;
+  text-align: center;
+}
+
+#faq {
+  padding-bottom: 0;
+}
+
+#pricing h2 {
+  margin-bottom: .5rem;
+}
+
+#pricing h2+p {
+  margin-bottom: 2rem;
+}
+
+.receipt-item span.info-icon {
+  font-size: calc(var(--font-size-smallest) * .9);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {

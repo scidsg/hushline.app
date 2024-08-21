@@ -512,6 +512,119 @@
                 </ul>
             </div>
         </section>
+        <section id="pricing" class="cards">
+            <div class="icon pricing"></div>
+            <h2>Pricing</h2>
+            <p>If you need more than what our free tier provides, we have more options to meet your requirements.</p>
+            <div class="wrapper">
+                <div class="description">
+                    <h3>Pro</h3>
+                    <div class="receipt">
+                        <div class="receipt-item">
+                            <span>Monthly Messages</span>
+                            <span>250</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Forwarding Addresses</span>
+                            <span>5</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Aliases</span>
+                            <span>5</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Custom Message Subjects</span>
+                            <span>5</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Monthly</span>
+                            <span>$<span id="proPrice">0</span>/mo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Business</h3>
+                    <div class="receipt">
+                        <div class="receipt-item">
+                            <span>Monthly Messages</span>
+                            <span>Unlimited</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Forwarding Addresses</span>
+                            <span>20</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Aliases</span>
+                            <span>20</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Custom Message Subjects</span>
+                            <span>20</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Monthly</span>
+                            <span>$<span id="licensePrice">0</span>/mo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Single Tenant</h3>
+                    <ul>
+                        <li>All Business Features</li>
+                    </ul>
+                    <div class="field">
+                        <label for="licenses">Number of Licenses</label>
+                        <select id="licenses"">
+                            <option value=" 1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="receipt">
+                        <div class="receipt-item">
+                            <span>Base Price</span>
+                            <span>$<span id="basePrice">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>License Cost</span>
+                            <span>$<span id="licenseCost">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Admin Fee (10%)</span>
+                            <span>$<span id="adminFee">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Donation Fee (10%)
+                                <span class="info-icon"
+                                    title="100% of our donation fee goes to the not-for-profit third-party software we use: Riseup.net or Linux Foundation, for example.">ℹ️</span>
+                            </span>
+                            <span>$<span id="donationFee">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item" id="supportRow">
+                            <span>Support Fee (10%)</span>
+                            <span>$<span id="supportFee">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item total">
+                            <span>Monthly</span>
+                            <span>$<span id="totalPrice">0</span>/mo</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span>Annually</span>
+                            <span>$<span id="totalAnnualPrice">0</span>/yr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="contact">
             <div class="feature">
                 <div class="wrapper">
@@ -556,7 +669,7 @@
     </main>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/faq.js"></script>
-
+    <script src="assets/js/pricing.js"></script>
 </body>
 
 </html>
