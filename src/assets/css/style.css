@@ -1248,6 +1248,7 @@ body.landing .feature .description p {
 
 #pricing h2+p {
   max-width: 640px;
+  width: 90%;
   text-align: center;
 }
 
