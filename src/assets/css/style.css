@@ -594,7 +594,7 @@ a.dropbtn:hover {
   margin-bottom: .5rem;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
 
   header nav ul {
     display: none;
