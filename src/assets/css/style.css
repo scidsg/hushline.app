@@ -998,6 +998,9 @@ ul {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 1280px;
 }
 
 .cards .description {
@@ -1280,6 +1283,38 @@ body.landing .feature .description p {
 
 .ps_upsell {
   margin-top: 1rem;
+}
+
+.info-icon {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  font-size: var(--font-size-smallest);
+  font-family: var(--font-sans);
+}
+
+.info-icon::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-brand);
+  width: 240px;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: left;
+  visibility: hidden;
+  z-index: 1000;
+  font-size: var(--font-size-small);
+}
+
+.info-icon:focus::after,
+.info-icon:hover::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media only screen and (max-width: 1000px) {
