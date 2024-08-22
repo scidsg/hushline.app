@@ -1288,9 +1288,10 @@ body.landing .feature .description p {
 .info-icon {
   position: relative;
   cursor: pointer;
+  top: -1px;
   text-decoration: none;
   color: inherit;
-  font-size: var(--font-size-smallest);
+  font-size: calc(var(--font-size-smallest)*.8);
   font-family: var(--font-sans);
 }
 
