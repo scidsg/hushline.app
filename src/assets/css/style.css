@@ -1282,8 +1282,9 @@ body.landing .feature .description p {
   color: #595959;
 }
 
-.ps_upsell {
+#pricing .ps_upsell {
   margin-top: 1rem;
+  margin-bottom: .5rem;
 }
 
 .info-icon {
@@ -1294,6 +1295,11 @@ body.landing .feature .description p {
   color: inherit;
   font-size: calc(var(--font-size-smallest)*.8);
   font-family: var(--font-sans);
+}
+
+.tease {
+  margin-top: 1rem;
+
 }
 
 .info-icon::after {
@@ -1317,6 +1323,12 @@ body.landing .feature .description p {
 .info-icon:hover::after {
   opacity: 1;
   visibility: visible;
+}
+
+#pricing .btn {
+  font-size: var(--font-size-small);
+  padding: 0 1rem;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
