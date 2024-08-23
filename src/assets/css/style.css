@@ -1216,6 +1216,7 @@ body.landing .feature .description p {
   gap: .5rem;
   line-height: 1.3;
   font-size: calc(var(--font-size-base) * .825);
+  align-items: center;
 }
 
 .receipt {
