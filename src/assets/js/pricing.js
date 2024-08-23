@@ -31,8 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update the receipt with calculated values
         document.getElementById("basePrice").innerText = basePrice.toFixed(2);
-        document.getElementById("proPrice").innerText = totalProPrice.toFixed(2);
-        document.getElementById("licensePrice").innerText = totalBusinessPrice.toFixed(2);
+        document.getElementById("proPrice").innerText = proPrice.toFixed(2);
+        document.getElementById("totalProPrice").innerText = totalProPrice.toFixed(2);
+        document.getElementById("licensePrice").innerText = licensePrice.toFixed(2);
+        document.getElementById("totalBusinessPrice").innerText = totalBusinessPrice.toFixed(2);
         document.getElementById("licenseCost").innerText = licenseCost.toFixed(2);
         document.getElementById("adminFee").innerText = adminFee.toFixed(2);
         document.getElementById("donationFee").innerText = tenantDonationFee.toFixed(2); // Corrected for tenant
