@@ -1203,6 +1203,7 @@ body.landing .feature .description p {
 #pricing {
   margin-top: 3rem;
   background-color: transparent;
+  padding-bottom: 0;
 }
 
 .field,
