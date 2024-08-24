@@ -1486,6 +1486,13 @@ body.landing .feature .description p {
 
   .faq-question {
     font-size: calc(var(--font-size-3)*.8);
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
+
+  .faq-list li {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
   }
 }
 
@@ -1495,6 +1502,14 @@ body.landing .feature .description p {
   }
 
   .faq-question {
-    font-size: calc(var(--font-size-3)*.7);
+    font-size: calc(var(--font-size-3)*.75);
+    padding-top: .625rem;
+    padding-bottom: .625rem;
   }
+
+  .faq-list li {
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+  }
+
 }
