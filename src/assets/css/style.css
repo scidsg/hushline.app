@@ -1335,6 +1335,33 @@ body.landing .feature .description p {
   margin-top: 1rem;
 }
 
+img.riseup {
+  height: 2rem;
+  width: inherit;
+}
+
+#forwarding .description p {
+  display: flex;
+  align-items: center;
+}
+
+#forwarding .description p a {
+  margin-left: .25rem;
+}
+
+#forwarding .description p img.riseup {
+  margin-left: .25rem;
+}
+
+#forwarding .description p a {
+  display: flex;
+}
+
+#forwarding .description p img.riseup {
+  align-items: center;
+  display: flex;
+}
+
 @media only screen and (max-width: 1000px) {
   .intro h2 {
     font-size: calc(var(--font-size-1) * .9);
