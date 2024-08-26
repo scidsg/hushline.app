@@ -1429,7 +1429,7 @@ img.riseup {
     width: 100%;
   }
 
-  .feature img {
+  .feature img:not(img.riseup) {
     transform: initial;
     width: 100%;
   }
