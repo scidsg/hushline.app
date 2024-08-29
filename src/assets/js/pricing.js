@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     const basePrice = 103;
-    const proPrice = 5; // Fixed cost for the "Pro" plan
     const businessPrice = 20; // Fixed cost for the "Business" plan
     const licensePrice = 20;
     const adminFeePercentage = 0.10;
@@ -17,12 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const adminFee = subTotal * adminFeePercentage;
         const supportFee = subTotal * supportFeePercentage;
 
-        // Pro tier calculations
-        const proDonationFee = proPrice * donationFeePercentage;
-        const proAdminFee = proPrice * adminFeePercentage;
-        const proSupportFee = proPrice * supportFeePercentage;
-        const totalProPrice = proPrice + proDonationFee + proAdminFee + proSupportFee;
-
         // Business tier calculations
         const businessDonationFee = businessPrice * donationFeePercentage;
         const businessAdminFee = businessPrice * adminFeePercentage;
@@ -36,18 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update the receipt with calculated values
         document.getElementById("basePrice").innerText = basePrice.toFixed(2);
-        document.getElementById("proPrice").innerText = proPrice.toFixed(2);
-        document.getElementById("totalProPrice").innerText = totalProPrice.toFixed(2);
         document.getElementById("licensePrice").innerText = totalBusinessPrice.toFixed(2);
         document.getElementById("licenseCost").innerText = licenseCost.toFixed(2);
         document.getElementById("adminFee").innerText = adminFee.toFixed(2);
         document.getElementById("donationFee").innerText = tenantDonationFee.toFixed(2);
         document.getElementById("businessPrice").innerText = businessPrice.toFixed(2);
-        document.getElementById("proDonationFee").innerText = proDonationFee.toFixed(2);
         document.getElementById("businessDonationFee").innerText = businessDonationFee.toFixed(2);
-        document.getElementById("proAdminFee").innerText = proAdminFee.toFixed(2);
         document.getElementById("businessAdminFee").innerText = businessAdminFee.toFixed(2);
-        document.getElementById("proSupportFee").innerText = proSupportFee.toFixed(2);
         document.getElementById("businessSupportFee").innerText = businessSupportFee.toFixed(2);
         document.getElementById("supportFee").innerText = supportFee.toFixed(2);
         document.getElementById("totalPrice").innerText = totalPrice.toFixed(2);
