@@ -1366,6 +1366,12 @@ img.riseup {
   display: inline-block;
   position: relative;
   white-space: nowrap;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
 }
 
 .animated-text.highlight {
