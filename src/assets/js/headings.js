@@ -29,5 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 500); // Match this to the CSS transition duration
     }
 
-    setInterval(changeWord, 4000); // Change every 4 seconds
+    setInterval(changeWord, 5000); // Change every 5 seconds
 });
