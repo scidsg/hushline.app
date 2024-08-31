@@ -1368,15 +1368,48 @@ img.riseup {
   white-space: nowrap;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  font-family: var(--font-sans-bold);
+  padding: 0 .25rem;
 }
 
 .fade-out {
   opacity: 0;
 }
 
-.animated-text.highlight {
-  font-family: var(--font-sans-bold);
-  padding: 0 .25rem;
+.wipe-in {
+  background: linear-gradient(to right,var(--color-brand) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  animation: wipeIn .5s forwards;
+}
+
+.wipe-out {
+  background: linear-gradient(to right,var(--color-brand) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 0%;
+  animation: wipeOut .5s forwards;
+}
+
+.animated-text {
+  color: var(--color-brand-bg);
+}
+
+@keyframes wipeIn {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+@keyframes wipeOut {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: -100%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {

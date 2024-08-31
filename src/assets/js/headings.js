@@ -19,14 +19,18 @@ document.addEventListener("DOMContentLoaded", function() {
             newWord = words[0];
         } while (newWord === lastWord);
 
-        lastWord = newWord; // Update lastWord with the new word
+        lastWord = newWord;
 
-        animatedTextElement.classList.add("fade-out");
+        // Trigger the wipe-out effect
+        animatedTextElement.classList.remove("wipe-in");
+        animatedTextElement.classList.add("wipe-out");
 
         setTimeout(() => {
+            // Change the text after wipe-out is complete
             animatedTextElement.textContent = newWord;
-            animatedTextElement.classList.remove("fade-out");
-        }, 500); // Match this to the CSS transition duration
+            animatedTextElement.classList.remove("wipe-out");
+            animatedTextElement.classList.add("wipe-in");
+        }, 1000); // Match this to the CSS animation duration
     }
 
     setInterval(changeWord, 6000); // Change every 6 seconds
