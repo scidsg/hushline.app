@@ -1380,14 +1380,14 @@ img.riseup {
   background: linear-gradient(to right,var(--color-brand) 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: 100%;
-  animation: wipeIn .5s forwards;
+  animation: wipeIn .6s forwards;
 }
 
 .wipe-out {
   background: linear-gradient(to right,var(--color-brand) 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: 0%;
-  animation: wipeOut .5s forwards;
+  animation: wipeOut .6s forwards;
 }
 
 .animated-text {
