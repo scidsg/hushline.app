@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const words = ["employees", "students", "workers", "whistleblowers", "communities", "the public", "you"];
+    const words = ["whistleblowers", "employees", "students", "workers", "communities", "the public", "you"];
     const animatedTextElement = document.querySelector(".animated-text");
     let currentIndex = 0;
 
@@ -22,5 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 1000); // Match this to the CSS animation duration
     }
 
+    // Start the animation immediately
+    changeWord();
+
+    // Continue changing words every 4 seconds
     setInterval(changeWord, 4000); // Change every 4 seconds
 });
