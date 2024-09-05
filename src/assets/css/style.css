@@ -798,6 +798,9 @@ section:not(.intro) {
   justify-content: center;
   flex-direction: row;
   background-color: var(--color-brand);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 
 }
 
