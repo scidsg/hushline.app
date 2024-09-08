@@ -786,6 +786,10 @@ section:not(.intro) {
   text-align: center;
 }
 
+.cards .wrapper:nth-last-child(2) {
+  margin-bottom: 1rem;
+}
+
 /*BANNER*/
 
 .banner {
