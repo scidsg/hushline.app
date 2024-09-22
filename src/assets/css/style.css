@@ -878,7 +878,7 @@ header nav .primaryBtn {
 }
 
 .intro h2 {
-  font-size: var(--font-size-1);
+  font-size: calc(var(--font-size-1) * 1.25);
   margin-bottom: .5rem;
   color: var(--color-brand-dark);
 }
@@ -1416,6 +1416,12 @@ img.riseup {
   }
   100% {
     background-position: -100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .intro h2 {
+    font-size: var(--font-size-1);
   }
 }
 
