@@ -878,7 +878,7 @@ header nav .primaryBtn {
 }
 
 .intro h2 {
-  font-size: calc(var(--font-size-1) * 1.25);
+  font-size: calc(var(--font-size-1) * 1.1);
   margin-bottom: .5rem;
   color: var(--color-brand-dark);
 }
