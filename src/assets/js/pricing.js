@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const basePrice = 103;
-    const businessPrice = 20; // Fixed cost for the "Business" plan
+    const businessPrice = 15.385; // Fixed cost for the "Business" plan
     const licensePrice = 20;
     const adminFeePercentage = 0.10;
     const donationFeePercentage = 0.10;
