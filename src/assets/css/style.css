@@ -1170,6 +1170,7 @@ section.steps {
 
 .steps p {
   max-width: 640px;
+  line-height: 1.5;
 }
 
 /*FOOTER*/
