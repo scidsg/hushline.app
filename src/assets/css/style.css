@@ -1246,7 +1246,7 @@ body.landing .feature .description p {
   margin-bottom: 0;
 }
 
-.banner+header+.landing>.intro .wrapper {
+.banner+header+.landing>.intro .wrapper:not(.intro.secondary .wrapper) {
   margin-top: 3rem;
 }
 
@@ -1557,7 +1557,7 @@ img.riseup {
     margin-left: .5rem;
   }
 
-  .intro .wrapper {
+  .intro .wrapper:not(.intro.secondary .wrapper) {
     margin-top: 11rem;
     display: flex;
     text-align: center;
