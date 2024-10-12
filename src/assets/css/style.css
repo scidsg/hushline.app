@@ -83,7 +83,6 @@ h3 {
 .steps h3,
 .steps h4 {
   margin-bottom: 1rem;
-  line-height: 1.2;
 }
 
 h1 {
@@ -124,6 +123,7 @@ a {
 
 p {
   word-break: break-word;
+  max-width: 640px;
 }
 
 p,
@@ -889,6 +889,37 @@ header nav .primaryBtn {
   padding: 12rem 0 6rem 0;
 }
 
+section.congrats {
+  background-color: var(--color-bg);
+  padding: 0 0 6rem 0;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+}
+
+.feature .img-container img {
+  width: 100%;
+}
+
+body.landing .feature .description p.step-label {
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  font-family: var(--font-sans-bold);
+}
+
+.step-label + h3,
+.step-label + h4 {
+  margin-top: 0;
+}
+
+.feature {
+  align-items: start;
+}
+
 .intro.secondary + section {
   background-color: var(--color-bg);
 }
@@ -1124,6 +1155,10 @@ section.why {
 
 .steps .feature {
   padding: 3rem 0;
+}
+
+.steps .feature .wrapper {
+  align-items: start;
 }
 
 .steps .feature:first-of-type {
