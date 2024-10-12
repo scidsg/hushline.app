@@ -1565,7 +1565,7 @@ img.riseup {
     flex-direction: column;
   }
 
-  .banner+header+.landing>.intro .wrapper {
+  .banner+header+.landing>.intro .wrapper:not(.intro.secondary .wrapper) {
     margin-top: 11rem;
   }
 
@@ -1630,7 +1630,7 @@ img.riseup {
 }
 
 @media only screen and (max-width: 480px) {
-  .banner+header+.landing>.intro .wrapper {
+  .banner+header+.landing>.intro .wrapper:not(.intro.secondary .wrapper) {
     margin-top: 12rem;
   }
 
