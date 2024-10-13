@@ -4,7 +4,9 @@
   --color-text: #333;
   --color-text-light: #595959;
   --color-bg: #FAFAFD;
+  --color-bg-light: #FAFAFD;
   --color-brand-bg: #fbf3ff;
+  --color-bg-shade: #F1F2F8;
   --color-brand-dark: #370C6B;
   --color-brand-gradient: linear-gradient(135deg, rgba(125, 37, 193, 1) 0%, rgba(135, 66, 187, 1) 100%);
 
@@ -780,7 +782,7 @@ main.landing {
 
 .wrapper {
   max-width: 1280px;
-  width: 100%;
+  width: 100vw;
   padding-left: 2rem;
   padding-right: 2rem;
   box-sizing: border-box;
@@ -881,6 +883,7 @@ header nav .primaryBtn {
   background-size: cover !important;
   overflow: hidden;
   display: flex;
+  background-image: linear-gradient(180deg, var(--color-brand-bg) 0%, var(--color-brand-bg) 75%, var(--color-bg) 100%);
 }
 
 .intro.secondary {
@@ -965,7 +968,6 @@ p.badge {
 }
 
 /*FAQ*/
-
 .faq-answer {
   display: none;
   margin-top: 5px;
@@ -1053,7 +1055,9 @@ ul {
 /*CARDS*/
 
 .cards {
-  background-color: #F1F2F8;
+  background-color: var(--color-bg-shade);
+  background-image: linear-gradient(180deg, var(--color-bg-shade) 0%, var(--color-bg-shade) 75%, var(--color-bg) 100%);
+
 }
 
 .cards .wrapper {
@@ -1101,6 +1105,8 @@ ul {
   background-color: #FAFAFD;
   flex-direction: column;
   padding: 0 calc(4rem * 2);
+  background-image: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg) 75%, var(--color-bg-shade) 100%);
+
 }
 
 .statement .wrapper {
@@ -1133,6 +1139,8 @@ ul {
 
 section.why {
   background-color: #FAFAFD;
+  background-image: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg) 75%, var(--color-brand-bg) 100%);
+
 }
 
 .feature .flip+img {
@@ -1193,6 +1201,8 @@ section.why {
 section.contact {
   background-color: var(--color-bg);
   padding-bottom: 3rem;
+  background-image: linear-gradient(180deg, var(--color-bg-light) 0%, var(--color-bg-light) 75%, var(--color-bg-light) 100%);
+
 }
 
 section.steps {
@@ -1293,6 +1303,8 @@ body.landing .feature .description p {
   margin-top: 3rem;
   background-color: transparent;
   padding-bottom: 0;
+  background-image: linear-gradient(180deg, var(--color-brand-bg) 0%, var(--color-brand-bg) 75%, var(--color-bg-shade) 100%);
+
 }
 
 .field,
