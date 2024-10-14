@@ -772,7 +772,7 @@ p {
   font-size: var(--font-size-base);
   line-height: 1.40625;
   margin-bottom: 1rem;
-
+  color: var(--color-text);
 }
 
 main.landing {
