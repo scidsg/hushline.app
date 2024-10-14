@@ -873,6 +873,14 @@ header nav .primaryBtn {
   margin-left: .25rem;
 }
 
+header h1 a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+}
 /*INTRO*/
 
 .intro {
