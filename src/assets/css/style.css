@@ -1718,6 +1718,7 @@ img.riseup {
   margin: 0;
   font-family: var(--font-sans);
   min-width: initial;
+  border-bottom: 3px solid transparent;
 }
 
 .tablinks.active {
