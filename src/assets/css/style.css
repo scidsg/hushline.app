@@ -1749,8 +1749,8 @@ img.riseup {
   }
 
   .intro.secondary {
-    padding-top: 12rem;
-    padding-bottom: 8rem;
+    height: 100vh;
+    padding: 0;
   }
 
 }
