@@ -1,7 +1,7 @@
 :root {
   --color-border: rgba(0, 0, 0, .18);
   --color-brand: #7D25C1;
-  --color-text: #333;
+  --color-text: #222;
   --color-text-light: #595959;
   --color-bg: #FAFAFD;
   --color-bg-light: #FAFAFD;
@@ -80,6 +80,15 @@ h3 {
   font-family: var(--font-sans-bold);
   font-weight: normal;
   line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text);
 }
 
 .steps h3,
