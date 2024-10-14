@@ -34,25 +34,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    async function checkUptime() {
-        const url = 'https://tips.hushline.app'; // replace with your Hush Line URL
-        try {
-          const response = await fetch(url, { method: 'HEAD' });
-          if (response.ok) {
-            document.getElementById('uptime-badge').style.backgroundColor = 'green';
-            document.getElementById('uptime-badge').textContent = 'The App is Online';
-          } else {
-            document.getElementById('uptime-badge').style.backgroundColor = 'red';
-            document.getElementById('uptime-badge').textContent = 'App Offline';
-          }
-        } catch (error) {
-          document.getElementById('uptime-badge').style.backgroundColor = 'red';
-          document.getElementById('uptime-badge').textContent = 'App Offline';
-        }
-      }
+    // async function checkUptime() {
+    //     const url = 'https://tips.hushline.app'; // replace with your Hush Line URL
+    //     try {
+    //       const response = await fetch(url, { method: 'HEAD' });
+    //       if (response.ok) {
+    //         document.getElementById('uptime-badge').style.backgroundColor = 'green';
+    //         document.getElementById('uptime-badge').textContent = 'The App is Online';
+    //       } else {
+    //         document.getElementById('uptime-badge').style.backgroundColor = 'red';
+    //         document.getElementById('uptime-badge').textContent = 'App Offline';
+    //       }
+    //     } catch (error) {
+    //       document.getElementById('uptime-badge').style.backgroundColor = 'red';
+    //       document.getElementById('uptime-badge').textContent = 'App Offline';
+    //     }
+    //   }
     
-      setInterval(checkUptime, 60000); // Check every 60 seconds
-      checkUptime(); // Initial check
+    //   setInterval(checkUptime, 60000); // Check every 60 seconds
+    //   checkUptime(); // Initial check
 
     // Execute dropdown setup
     setupDropdown();
