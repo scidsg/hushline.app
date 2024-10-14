@@ -1748,4 +1748,8 @@ img.riseup {
     margin-bottom: .625rem;
   }
 
+  .intro.secondary {
+    padding-top: 4rem;
+  }
+
 }
