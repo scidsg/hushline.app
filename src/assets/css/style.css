@@ -1715,6 +1715,8 @@ img.riseup {
   bottom: 0;
   gap: 1rem;
   display: flex;
+  overflow: scroll;
+  width: 100%;
 }
 
 .tabs button {
@@ -1736,6 +1738,7 @@ img.riseup {
   font-family: var(--font-sans);
   min-width: initial;
   border-bottom: 3px solid transparent;
+  white-space: nowrap;
 }
 
 .tablinks.active {
@@ -1770,4 +1773,12 @@ img.riseup {
     padding-bottom: 8rem;
   }
 
+  .tabs {
+    width: calc(100vw - 4rem);
+    scrollbar-width: none;
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
 }
