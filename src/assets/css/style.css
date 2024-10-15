@@ -1774,8 +1774,13 @@ img.riseup {
   }
 
   .tabs {
-    width: calc(100vw - 4rem);
+    width: calc(100vw - 3rem);
     scrollbar-width: none;
+  }
+
+  .tabs {
+    padding-right: 1.5rem;
+    box-sizing: border-box;
   }
 
   .tabs::-webkit-scrollbar {
