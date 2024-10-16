@@ -1717,6 +1717,7 @@ img.riseup {
   display: flex;
   overflow: scroll;
   width: 100%;
+  right: 0;
 }
 
 .tabs button {
