@@ -1715,9 +1715,7 @@ img.riseup {
   bottom: 0;
   gap: 1rem;
   display: flex;
-  overflow: scroll;
-  width: 100%;
-  right: 0;
+
 }
 
 .tabs button {
@@ -1775,13 +1773,13 @@ img.riseup {
   }
 
   .tabs {
-    width: calc(100vw - 3rem);
     scrollbar-width: none;
-  }
-
-  .tabs {
     padding-right: 1.5rem;
-    box-sizing: border-box;
+    right: 0;
+    left: 0;
+    padding-right: 1.5rem;
+    padding-left: 2rem;
+    overflow: scroll;
   }
 
   .tabs::-webkit-scrollbar {
