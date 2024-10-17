@@ -1549,11 +1549,11 @@ img.riseup {
 }
 
 .case-study h3 {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .case-study h4 {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .case-study h5 {
@@ -1562,7 +1562,7 @@ img.riseup {
 
 .case-study h5,
 .case-study h6 {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .case-study b {
@@ -1584,7 +1584,7 @@ img.riseup {
   text-align: center;
 }
 
-.case-study table.comp {
+.case-study table {
   width: 100%;
   overflow: scroll;
   table-layout: fixed;
@@ -1631,10 +1631,12 @@ blockquote {
 }
 
 code {
-  font-family: var(--font-mono);
-  max-width: 640px;
-  font-size: var(--font-size-small);
-  line-height: 1.5;
+    font-family: var(--font-mono);
+    max-width: 640px;
+    font-size: var(--font-size-small);
+    word-break: break-word;
+    line-height: 1.5;
+
 }
 
 @keyframes wipeIn {
