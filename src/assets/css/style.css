@@ -1577,7 +1577,7 @@ img.riseup {
 .case-study table th {
   padding: .825rem;
   border: var(--border);
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .case-study table.comp td:not(:first-of-type) {
@@ -1617,7 +1617,7 @@ img.riseup {
 blockquote {
   max-width: 640px;
   font-size: 1.25rem;
-  line-height: 1.4;
+  line-height: 1.2;
   font-style: italic;
   padding-left: 2rem;
   border-left: var(--border);
@@ -1904,4 +1904,48 @@ code {
   .tabs::-webkit-scrollbar {
     display: none;
   }
+    
+    .case-study table th {
+        display: none;
+    }
+    
+    .case-study table tr {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+    }
+    
+    .case-study table.comp td {
+        text-align: left !important;
+    }
+    
+    .case-study table th,
+    .case-study table td {
+        border: none;
+        padding-top: .25rem;
+        padding-bottom: 0;
+    }
+    
+    .case-study table td {
+        display: flex;
+    }
+    
+    .case-study table {
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .case-study tr td:first-of-type {
+        border-top: var(--border);
+        margin-top: .25rem;
+        padding-top: 1rem;
+    }
+    
+    .case-study tr:first-of-type td {
+        border-top: none;
+    }
+    
+    .case-study table tbody {
+        width: 100%;
+    }
 }
