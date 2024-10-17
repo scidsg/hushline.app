@@ -769,6 +769,144 @@ Since your email client will try to load the image from the attacker-controlled 
                   <h4>Architecture</h4>
                   <p>Everything runs locally on the Personal Server. Using Ansible to deploy and Docker to run the application makes it easy to replicate builds and ensure consistency (Figure 5). In place of a managed database, we use `sqlite3` locally, and instead of using RiseUp for email forwarding, SMTP relies on custom configurations set by users.</p>
                   <img src="assets/img/personal_server_arch.png" alt="Personal Server Architecture">
+
+                  <h4>Defending Against Physical Access</h4>
+                  <h5>Unique Identification</h5>
+                  <p>The only access to the device is by removing the lid, and to help defend against physical access, uniquely numbered, tamper-evident tags seal the lid to the body. Personal Server owners are encouraged to copy their cover numbers down; if tampering is ever suspected, they may verify that they match.</p>
+                  <h5>Custom Case</h5>
+                  <p>We designed custom cases milled from solid A606 alloy. All ports, except for power and ethernet, are sealed from physical access. The lid is a 5mm piece of smoked acrylic, giving a clear view of the e-paper display, which shows a QR code embedded with the device’s onion address.</p>
+                  <p>Everything is plug-and-play; the owner needs no specialized training to set up and operate the Personal Server. Our custom cases are not for sale individually; we are exclusive distributors.</p>
+                  <h5>Ethical Monetization</h5>
+                  <p>Hush Line is proudly supported by the Data Empowerment Fund, but Science & Design, Inc. is a 501(c)(3) and, as a non-profit, receives most financing through grant cycles that are both inconsistent and insufficient. Understanding the cost associated with web services, Science & Design understands the need to seek product sustainability through financial sustainability. We are seeking a path toward ethical monetization through paid tiers of features targeted at business users. We will always provide our core services for free, and will continue researching how to make Hush Line more valuable for paying customers while maintaining our non-profit principles.</p>
+
+                <table>
+                <thead>
+                    <tr>
+                    <th>Feature</th>
+                    <th>Free</th>
+                    <th>Super Users</th>
+                    <th>Single-Tenant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td><strong>Daily Messages</strong></td>
+                    <td>Unlimited Messages</td>
+                    <td>Unlimited Messages</td>
+                    <td>Unlimited Messages</td>
+                    </tr>
+                    <tr>
+                    <td><strong>End-to-End Encryption</strong></td>
+                    <td>✅ E2EE&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ E2EE&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ E2EE&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>2FA (Two-Factor Authentication)</strong></td>
+                    <td>✅ 2FA Avail.&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ 2FA Avail.&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ 2FA Avail.&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>No Logging</strong></td>
+                    <td>✅ No Logs&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ No Logs&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ No Logs&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Verified Accounts</strong></td>
+                    <td>✅ Verified Accounts&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Verified Accounts&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Verified Accounts&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Self-Authenticating URLs</strong></td>
+                    <td>✅ Authenticating URLs&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Authenticating URLs&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Authenticating URLs&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                    <td><strong>OCR Vision Assistant</strong></td>
+                    <td>✅ OCR Avail.&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ OCR Avail.&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ OCR Avail.&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Mailvelope</strong></td>
+                    <td>✅ Mailvelope Avail.&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Mailvelope Avail.&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Mailvelope Avail.&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Auto-Deleting Messages</strong></td>
+                    <td>✅ Auto-Deleting Msgs.&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Auto-Deleting Msgs.&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Auto-Deleting Msgs.&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Simple SMTP</strong></td>
+                    <td>✅ Riseup&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Riseup&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>❌ Custom SMTP&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Aliases</strong></td>
+                    <td>❌ No Aliases&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ 100 Aliases&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Unlimited Aliases&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Custom Subjects</strong></td>
+                    <td>❌ No Custom Subjects&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Custom Subjects&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Custom Subjects&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Files</strong></td>
+                    <td>❌ No File Support&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>❌ No File Support&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ File Support&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Custom Fields</strong></td>
+                    <td>❌ No Custom Fields&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>❌ No Custom Fields&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Custom Fields&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Custom Domain</strong></td>
+                    <td>❌ No Custom Fields&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>❌ No Custom Fields&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Custom Domain&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Branding</strong></td>
+                    <td>❌ No Branding&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>❌ No Branding&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>✅ Custom Branding&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Stripe Integration</strong></td>
+                    <td>✅ Stripe Subscriptions&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>✅ Stripe Subscriptions&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>❌ Stripe Not Applicable&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Monthly Price/User</strong></td>
+                    <td>$0.00&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>$20.00/mo&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>$159.90/mo&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                    <tr>
+                    <td><strong>Annual Price/User</strong></td>
+                    <td>$0.00&nbsp;<span class="cell-tier">(Free)</span></td>
+                    <td>Monthly Pricing&nbsp;<span class="cell-tier">(Super User)</span></td>
+                    <td>$1,918.80/yr&nbsp;<span class="cell-tier">(Single Tenant)</span></td>
+                    </tr>
+                </tbody>
+                </table>
+
                 </div>
         </div>
 
