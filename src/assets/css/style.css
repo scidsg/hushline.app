@@ -1541,6 +1541,7 @@ img.riseup {
 
 .case-study .wrapper {
   margin: 0 auto;
+  overflow-x: auto;
 }
 
 .case-study .intro.secondary h2 {
@@ -1585,6 +1586,9 @@ img.riseup {
 
 .case-study table.comp {
   width: 100%;
+  overflow: scroll;
+  table-layout: fixed;
+  border-collapse: collapse;
 }
 
 .case-study table {
