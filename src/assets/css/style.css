@@ -1614,6 +1614,10 @@ img.riseup {
   width: 100%;
 }
 
+.case-study table td:first-of-type {
+  font-family: var(--font-sans-bold);
+}
+
 .case-study table {
   overflow: scroll;
   table-layout: fixed;
