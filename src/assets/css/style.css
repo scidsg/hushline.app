@@ -1605,17 +1605,13 @@ img.riseup {
 
 .case-study table td,
 .case-study table th {
-  padding: 0.825rem;
+  padding: 0.825rem 0.5rem;
   border: var(--border);
   line-height: 1.3;
 }
 
 .case-study table.comp {
   width: 100%;
-}
-
-.case-study table.comp td:not(:first-of-type) {
-  text-align: center;
 }
 
 .case-study table {
@@ -1627,6 +1623,7 @@ img.riseup {
 .case-study table {
   background-color: white;
   border: var(--border);
+  font-size: var(--font-size-small);
 }
 
 .case-study table th {
@@ -1852,6 +1849,59 @@ code {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
   }
+
+  .case-study img {
+    width: 100%;
+  }
+
+  .case-study table th {
+    display: none;
+  }
+
+  .case-study table tr {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+  }
+
+  .case-study table.comp td {
+    text-align: left !important;
+  }
+
+  .case-study table th,
+  .case-study table td {
+    border: none;
+    padding-top: 0.25rem;
+    padding-bottom: 0;
+  }
+
+  .case-study table td {
+    display: flex;
+  }
+
+  .case-study table tr td:last-of-type {
+    padding-bottom: 0.5rem;
+  }
+
+  .case-study table {
+    display: flex;
+    overflow: hidden;
+    font-size: calc(var(--font-size-base) * 0.9125);
+  }
+
+  .case-study tr td:first-of-type {
+    border-top: var(--border);
+    margin-top: 0.25rem;
+    padding-top: 1rem;
+  }
+
+  .case-study tr:first-of-type td {
+    border-top: none;
+  }
+
+  .case-study table tbody {
+    width: 100%;
+  }
 }
 
 .intro.secondary {
@@ -1932,49 +1982,5 @@ code {
 
   .tabs::-webkit-scrollbar {
     display: none;
-  }
-
-  .case-study table th {
-    display: none;
-  }
-
-  .case-study table tr {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-  }
-
-  .case-study table.comp td {
-    text-align: left !important;
-  }
-
-  .case-study table th,
-  .case-study table td {
-    border: none;
-    padding-top: 0.25rem;
-    padding-bottom: 0;
-  }
-
-  .case-study table td {
-    display: flex;
-  }
-
-  .case-study table {
-    display: flex;
-    overflow: hidden;
-  }
-
-  .case-study tr td:first-of-type {
-    border-top: var(--border);
-    margin-top: 0.25rem;
-    padding-top: 1rem;
-  }
-
-  .case-study tr:first-of-type td {
-    border-top: none;
-  }
-
-  .case-study table tbody {
-    width: 100%;
   }
 }
