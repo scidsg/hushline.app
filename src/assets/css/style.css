@@ -793,6 +793,7 @@ p {
   line-height: 1.40625;
   margin-bottom: 1rem;
   color: var(--color-text);
+  font-family: var(--font-sans);
 }
 
 main.landing {
@@ -1674,6 +1675,10 @@ code {
 
 .case-study .cell-tier {
   display: none;
+}
+
+.case-study ol ul li {
+  font-family: var(--font-sans);
 }
 
 @keyframes wipeIn {

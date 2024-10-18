@@ -912,8 +912,143 @@ Since your email client will try to load the image from the attacker-controlled 
                     </tr>
                 </tbody>
                 </table>
+                <h3>The Path to Launch</h3>
+                <h4>Pre-Release Beta</h4>
+                <p>Before asking funders for support, having a minimum-viable product was an important milestone. To understand how we could improve the service, we ran a six-month beta program. During that time, we interviewed participants who included former whistleblowers, journalists, researchers, and others.</p>
+                <h4>Feedback & Findings</h4>
+                <p><b>PGP Key Length</b>: Depending on the encryption algorithm and other factors, PGP keys can differ in length significantly. Quickly after kicking off the beta, a participant tried using a key greater than 10,000 characters long an was unable to.</p>
+                <p><b>User Directory</b>: After suggestions from one of our subject matter experts, Dr. Martin Shelton, we included an opt-in user directory. This allows whistleblowers to find who they need in a centralized place without hunting around the Internet.</p>
+                <p><b>Bios</b>: One prominent whistleblower suggested adding additional social proof, including a bio for the whistleblower: “Making sure the whistleblower can confirm at each step that they’re talking to the right person is incredibly important for the person’s safety.”</p>
+                <p><b>Better Message Forwarding</b>: During the beta, we leaned on manual SMTP configuration, asking users to add their SMTP username, password, port, and server. A query at the end of the beta period showed that only 1.35% of participants configured message forwarding.</p>
+                <p><b>Beta Numbers</h4>
+                <p>Enrollment numbers for features like two-factor authentication appear low but are actually consistent with what we see with major platforms like Twitter, where the 2FA enrollment was 2.5%, slightly lower than Hush Line’s beta.</p>
+                <ul>
+                  <li><b>Total Testers</b>: 815</li>
+                  <li><b>2FA Enrolled</b>: 3.07%</li>
+                  <li><b>PGP Enabled</b>: 2.82%</li>
+                  <li><b>SMTP Enabled</b>: 1.35%</li>
+                </ul>
+                <h3>Our First Grant</h3>
+                <p>Hush Line was awarded a $100,000 grant from the Data Empowerment Fund to bring the app from prototype to production. We hired our first engineers, including Micah Lee, the creator of OnionShare, and core Tor Project and SecureDrop developer.</p>
+                <h4>Tentative Grant Budget</h4>
+                <ul>  
+                  <li><b>Engineering @ 65%</b>: Infrastructure development, front and back-end engineering, accessibility, and cryptography.</li>
+                  <li><b>Infrastructure @ 10%</b>: Costs for hosting on various platforms.</li>
+                  <li><b>Product Management @ 15%</b>: Roadmap, UX, UXR, Project Management.</li>
+                  <li><b>Org Admin @ 10%</b>: Lights-on fee.</li>
+                </ul>
 
-                </div>
+                <h3>Delivered Features</h3>
+                <ol>
+                  <li>Production infrastructure — XL (~40 hours)</li>
+                  <li>Development infrastructure — L (~20 hours)</li>
+                  <li>App Accessibility — L (~20 hours)</li>
+                  <li>Personal Server Readiness — XL (~60 hours)</li>
+                  <li>Better Message Forwarding Infrastructure — L (~20 hours)</li>
+                  <li>OCR Vision Assistant — S (~4 hours)</li>
+                  <li>Branding — S (~25 hours)</li>
+                  <li>Stripe Integration — XL (~60 hours)</li>
+                  <li>Aliases — XL (~80 hours)</li>
+                </ol>
+
+                <h3>Grant Application</h3>
+                <p>As a new 501(c)(3) non-profit starting from scratch, both financially and from a product perspective, we can confidently say that finding funding is not a trivial pursuit. Unlike businesses in the for-profit sector, VCs do not give millions to non-profits that cannot potentially return a massive profit on their investment.
+                  What does that mean for social entrepreneurs who are passionate about change? How do we get started and encourage more to join the fight for more ethical software? To help provide a guide for future creators, we’re including the questions and answers from our successful grant application below.</p>
+                <h4>Questions & Answers</h4>
+                <ol>
+                  <li>Describe the problem you are working to solve, or your diagnosis of the status quo and why it must be changed.</li>
+                    <ul>
+                      <li>In the workplace, up to 90% of women in some industries experience sexual assault and harassment. 61% of employees will witness or experience workplace harassment or discrimination. Only 18 out of 100 people will ever make a formal complaint, and fewer than 1% will find a resolution in court. Fear of retaliation causes this massive gap in reporting, but people want to help; they just can’t always take on the risks of public involvement. This problem has started to gain legislative support, with the EU Whistleblower Directive of 2019 coming into effect in 2023. Now, employers must offer confidential ways through internal and external channels if they have more than 50 employees.<br><br>
+
+                        For newsrooms, budget cuts, and layoffs force organizations to consider new publishing methods. Vice.com and Jezabel shuttering are two recent examples, but a more holistic view shows that from 2008 through 2020, there’s been a 25% decrease in headcount. When approached to adopt whistleblowing tools, the first question many ask is, “Who will manage it?” The tools on the market currently include the robust but prohibitively difficult-to-set-up SecureDrop, and GlobalLeaks, a self-hosted tool requiring technical proficiency to configure and manage.<br><br>
+                        
+                        And in schools, especially in the US, gun violence is an unfortunate reality that students have to live with. When we conducted research with students in West Oakland, we learned that students would speak up if they knew something, but if their “lives will be ruined” by being “labeled as a snitch,” they’ll keep quiet. Coupled with budgets so low that many educators have to buy their own markers, a technical solution for school safety isn’t always practical.</li>
+                    </ul>
+                  <li>Describe how your initiative is designed to address this problem or bring about this change.</li>
+                    <ul>
+                      <li>Currently, no free and open-source managed tip line services are on the market, and this is what Science & Design is excited to bring to the market through Hush Line. We’ll soon launch a platform that makes it easy for anyone to create an account and have a lightweight, secure, and anonymous tip line for free. For the highest threat models and those requiring complete control of their infrastructure, we have a hardware product called the Personal Server, which is designed to be the most secure way to run Hush Line. Or, if a user or organization prefers, they can host the platform on their own infrastructure.</li>
+                    </ul>
+                  <li>Tell us about the composition, experience and diversity of your team. Also list any other organisations who would be involved in your initiative, such as delivery partners or advisors.</li>
+                    <ul>
+                      <li>Two of our members, Glenn Sorrentino and Micah Lee, both on the Science & Design Board of Directors, serve on the Board of Advisors for Distributed Denial of Secrets, a 501(c)(3) archiving and publishing hacked and leaked datasets serving the public interest.<br><br>
+
+                        Science & Design is led by Glenn Sorrentino, a product designer and researcher with a long history of demonstrated impact by delivering core features and functionality for Salesforce, including Search, Voice, Identity, Authentication, and other platform tools still in use. He’s been awarded multiple US patents for his work and has led the design of high-profile products that have been the focus of keynotes at the annual Dreamforce conference, which attracts more than 100k customers. And as a former military whistleblower, he has personal experience speaking up.<br><br>
+                        
+                        Our contributors include active journalists, members of the core team of OnionShare and Dangerzone, SMEs and researchers from Freedom of the Press Foundation, and individuals who have worked on tools like SecureDrop, Tor, and Signal.<br><br>
+                        
+                        We’re driven by a passion to bring usable, accessible, secure, and private products that add real value to people who need them most.</li>
+                    </ul>
+                  <li>Describe the maturity of your initiative.</li>
+                  <ul>
+                    <li>Our first version of the app, a purely self-hosted, ultra-minimal version, was soft-launched at DEFCON 31 to a very successful reception. A few months before that, we applied for an independent security audit. We then started working on the Personal Server and a managed service. Those products were included in the security audit, which is currently wrapping up. We’re waiting for a public GA launch until we can address the report’s findings and anticipate finishing in early Q2.<br><br>
+
+                      We currently have a private beta online where people can request an invite to test the app. We’re limiting signups to a small group of users to conduct qualitative research to learn how the service might improve ahead of our GA launch.</li>
+                  </ul>
+                  <li>What value of grant are you seeking from the Data Empowerment Fund?</li>
+                  <ul>
+                    <li>$100,000</li>
+                  </ul>
+                  <li>Describe what activities you would use the grant to undertake.</li>
+                  <ul>
+                    <li>As we prepare for launch, we must consider infrastructure needs for scaling our service and, perhaps most importantly, mitigations for DOS attacks since we’ll have journalists and other at-risk groups as users.<br>
+
+                      Other areas to investigate:<br><br>
+                      <ul>
+                        <li>Integrating the Signal protocol for email and PGP-free service.</li>
+                        <li>Native mobile apps for browser-free functionality.</li>
+                        <li>Offline functionality.</li>
+                        <li>Alternative censorship-circumvention methods, including I2P or Snowstorm.</li>
+                        <li>Code rewrite in a memory-safe language such as RUST.</li>
+                      </ul>
+                  </ul>
+                  <li>Describe what outputs you would use the grant to produce. These are the things your activities will produce.</li>
+                  <ul>
+                    <li>The output of our activities will come with significant benefits to our product, including:</li>
+                      <ul>
+                        <li>More resilient infrastructure to attack.</li>
+                        <li>More reliable service for users experiencing censored internet connections.</li>
+                        <li>More flexible service through Signal integration.</li>
+                        <li>Delivery of native iOS, Android, and F-Droid apps that can help extend our reach to users who might only have mobile connectivity.</li>
+                        <li>Future-proofed codebase with a rewrite in a memory-safe language.</li>
+                        <li>Improved service for users experiencing internet outages.</li>
+                        <li>New features tailored for expanded organizational needs.</li>
+                      </ul>  
+                  </ul>
+                  <li>Describe what outcomes you would use the grant to achieve.</li>
+                  <ul>
+                    <li>The first goal of Hush Line is to foster more trust in communities by offering safe ways to engage with people who can influence meaningful change. Will sources be more encouraged to speak up if they have a no-strings-attached way of sharing information with journalists? Can workplaces be safer if employees have a retaliation-proof way to report ethical or legal violations? And can schools be safer by giving students a trustworthy way to share information with a trusted educator?<br><br>
+
+                      The data tells us that people will help if they know they’ll be protected. Hush Line hopes to fill this gap with our product suite, which is designed to fit any threat model.</li>
+                  </ul>
+                  <li>Describe the ultimate impact you would use the grant to achieve.</li>
+                  <ul>
+                    <li>We want to see Hush Line become ubiquitous in newsrooms, workplaces, and schoolhouses.<br><br>
+
+                      One key metric for success will be not only our total number of users but also how many verified users we have. We offer a verification program so that community members can know the authenticity of an account. Once an individual or organization completes the verification process, their message submission page will display a Verified badge, helping anyone have confidence that their message is going to the intended recipient.<br><br>
+                      
+                      Verification is only offered to journalists, newsrooms, educators, public figures, activists, and organizations.</li>
+                  </ul>
+                  <li>What will others be able to learn from your initiative?</li>
+                    <ul>
+                      <li>We’re particularly interested in supporting initiatives that: have significant public policy relevance; enable people to control how data is used to train AI models; and/or involve a novel legal, technological or participatory approach.<br><br>
+
+                        Hush Line aims to solve not only user problems but also business problems. We want to encourage community involvement and participatory change-making through providing trustworthy, easy-to-use software.<br><br>
+                        
+                        For business, we want to address organizational and product sustainability through our platform. Funding is challenging and uncertain. Because of this, many projects either go unfunded or need help to maintain and have to lean on volunteers to maintain velocity.<br><br>
+                        
+                        We’re excited to be the first free and open-source managed tip line service with a paid tier that includes features more tailored to organizational needs. Through exploring ethical ways of monetization, we hope that Hush Line can serve as a vehicle for financial sustainability, allowing us to maintain and evolve the product autonomously and ensuring our product and organization’s long-term success.<br><br>
+                        
+                        But we’re not reserving monetization only for us. If an organization chooses, they can host the managed Hush Line service on their own infrastructure and either unlock all paid features for free or integrate their own Stripe credentials to bootstrap their own micro-economy.<br><br>
+                        
+                        We believe that more 501(c)(3) organizations, like Science & Design, should offer reliable and trustworthy software infrastructure to help protect user data from being sold to data brokers and protect platforms against company takeover and shutdowns. A recent example is that of Skiff, a productivity platform whose value proposition was offering end-to-end encryption for their data. They were recently acquired and shut down by Notion, leaving their users, who included journalists and human rights defenders, in search of a new place to move their data. Since non-profits can’t be acquired, this can be a meaningful way to ensure the stability and longevity of open-source platforms.</li>
+                    </ul>
+                  <li>Describe how the Data Empowerment Fund could support your work beyond providing access to funding.</li>
+                    <ul>
+                      <li>While our team has deep product expertise, there’s so much we need to learn. We want to network with other professionals and organizations and understand how to improve the product to serve more users and use cases. We’re also aware that our ethical monetization model is relatively new for FOSS software — we want to refine it into something that serves not only as a roadmap for others to emulate but one that the collective input of the broader community can shape.</li>
+                    </ul>
+                </ol>
+
+            </div>
         </div>
 
         <div id="References" class="tabcontent" style="display:none;"> 
