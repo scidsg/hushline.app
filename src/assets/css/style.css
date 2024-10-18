@@ -1919,6 +1919,12 @@ code {
   .case-study .cell-tier {
     display: initial;
   }
+
+  .case-study table td,
+  .case-study table th {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .intro.secondary {
