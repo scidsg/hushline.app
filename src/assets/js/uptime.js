@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const uptimeBadge = document.getElementById('uptime-badge');
 
     async function checkUptime() {
-        const url = 'https://tips.hushline.app/directory'; // Replace with your app's URL
+        const url = 'https://tips.hushline.app/health.json';
         try {
             const response = await fetch(url, { method: 'HEAD' });
             if (response.ok) {
