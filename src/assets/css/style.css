@@ -1665,7 +1665,7 @@ blockquote {
   width: 66%;
 }
 
-code {
+code, .mono.address {
   font-family: var(--font-mono);
   max-width: 640px;
   font-size: var(--font-size-small);
