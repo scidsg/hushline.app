@@ -2008,3 +2008,16 @@ code, .mono.address {
     display: none;
   }
 }
+
+.landing.docs .feature .description ul li {
+  list-style: disc;
+  line-height: 1.4;
+}
+
+.landing.docs .feature .description ul {
+  padding-left: 1.25rem;
+}
+
+.landing.docs .feature .description blockquote {
+  margin: 1rem 0;
+}
