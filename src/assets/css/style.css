@@ -2029,13 +2029,17 @@ code, .mono.address {
   padding: 0;
 }
 
+.off-air-emoji {
+  font-size: 4rem;
+}
+
 .off-air-message {
   background-color: rgba(0,0,0,0.75);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
   color: white;
   position: absolute;
-  padding: 2.5rem 2rem 2.825rem 2rem;
+  padding: 3rem 2rem 3.25rem 2rem;
   text-align: center;
   top: 35%;
   left: 50%;
@@ -2044,14 +2048,18 @@ code, .mono.address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: .825rem;
+  border-radius: .5rem;
+  box-shadow: .425rem .425rem 0 lightcyan;
 }
 
 .off-air .off-air-message h1,
 .off-air .off-air-message p  {
-  color: white;
+  color: lightcyan;
   margin: 0 !important;
   line-height: 1.2;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 .off-air main {
