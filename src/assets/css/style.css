@@ -2021,3 +2021,162 @@ code, .mono.address {
 .landing.docs .feature .description blockquote {
   margin: 1rem 0;
 }
+
+.off-air {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0;
+}
+
+.off-air-message {
+  background-color: rgba(0,0,0,0.75);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  color: white;
+  position: absolute;
+  padding: 2rem 2rem 2.75rem 2rem;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.off-air .off-air-message h1,
+.off-air .off-air-message p  {
+  color: white;
+  margin: 0 !important;
+  line-height: 1.2;
+}
+
+.off-air main {
+  max-width: initial;
+  width: 100vw;
+}
+
+.off-air .row-1, 
+.off-air .row-2,
+.off-air .row-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-1, .row-2, .row-3 {
+  display: flex;
+  flex: 1;
+}
+
+.row-1 div, .row-2 div, .row-3 div {
+  flex: 1;
+}
+
+.off-air .row-1 {
+  height: 70vh;
+}
+
+.off-air .row-2 {
+  height: 5vh;
+}
+
+.off-air .row-3 {
+  height: 25vh;
+}
+
+.off-air .row-1 .color-1 {
+  background-color: white;
+}
+
+.off-air .row-1 .color-2 {
+  background-color: yellow;
+
+}
+
+.off-air .row-1 .color-3 {
+  background-color: lightblue;
+
+}
+
+.off-air .row-1 .color-4 {
+  background-color: greenyellow;
+
+}
+
+.off-air .row-1 .color-5 {
+  background-color: magenta;
+
+}
+
+.off-air .row-1 .color-6 {
+  background-color: red;
+
+}
+
+.off-air .row-1 .color-7 {
+  background-color: blue;
+
+}
+
+.off-air .row-2 .color-1 {
+  background-color: blue;
+
+}
+
+.off-air .row-2 .color-2 {
+  background-color: black;
+
+}
+
+.off-air .row-2 .color-3 {
+  background-color: magenta;
+
+}
+
+.off-air .row-2 .color-4 {
+  background-color: black;
+
+}
+
+.off-air .row-2 .color-5 {
+  background-color: turquoise;
+}
+
+.off-air .row-2 .color-6 {
+  background-color: black;
+}
+
+.off-air .row-2 .color-7 {
+  .off-air .row-3 .color-6 {
+    background-color: gray;
+  }
+}
+
+.off-air .row-3 .color-1 {
+  background-color: navy;
+}
+
+.off-air .row-3 .color-2 {
+  background-color: white;
+}
+
+.off-air .row-3 .color-3 {
+  background-color: navy;
+}
+
+.off-air .row-3 .color-4 {
+  background-color: black;
+}
+
+.off-air .row-3 .color-5 {
+  background-color: black;
+}
+
+.off-air .row-3 .color-6 {
+  background-color: black;
+}
+
+
