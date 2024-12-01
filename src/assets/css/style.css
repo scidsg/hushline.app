@@ -113,6 +113,10 @@ h2 {
   font-size: var(--font-size-2);
 }
 
+h2.wrapper {
+  margin-bottom: 2rem;
+}
+
 h1 + p:not(.instr):not(.message):not(.badge),
 h2 + p:not(.instr):not(.message):not(.badge) {
   margin-top: 0.5rem;
@@ -2195,4 +2199,11 @@ code, .mono.address {
 
 .landing .tabs {
   gap: 2rem;
+  background-color: var(--color-bg);
+  width: 100%;
+}
+
+.landing .tabs button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
