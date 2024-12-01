@@ -801,12 +801,14 @@ main.landing {
   max-width: 100%;
 }
 
-.wrapper {
+.wrapper,
+.tab-content .wrapper {
   max-width: 1280px;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 section:not(.intro) {
@@ -1235,10 +1237,6 @@ section.why {
 
 .feature:nth-of-type(1):not(.steps .feature) {
   padding: 0.75rem 0 3rem 0;
-}
-
-.feature:nth-of-type(2):not(.steps .feature) {
-  padding: 3rem 0 6rem 0;
 }
 
 .feature .wrapper {
@@ -2187,4 +2185,14 @@ code, .mono.address {
   background-color: black;
 }
 
+.landing .tabcontent {
+  background-color: var(--color-bg);
+}
 
+.landing .tabs button {
+  letter-spacing: .0125rem;
+}
+
+.landing .tabs {
+  gap: 2rem;
+}
