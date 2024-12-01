@@ -2207,3 +2207,8 @@ code, .mono.address {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.emoji {
+  display: block;
+  margin-bottom: .5rem;
+}
