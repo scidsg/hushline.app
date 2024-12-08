@@ -734,6 +734,10 @@ a.dropbtn:hover {
   background-image: url("../img/icon-mail.png");
 }
 
+.icon.tor {
+  background-image: url("../img/icon-tor.png");
+}
+
 .icon.donor {
   background-image: url("../img/icon-donor.png");
 }
@@ -1940,6 +1944,7 @@ code, .mono.address {
   bottom: 0;
   gap: 1rem;
   display: flex;
+  box-sizing: border-box;
 }
 
 .tabs button {
@@ -1998,10 +2003,9 @@ code, .mono.address {
 
   .tabs {
     scrollbar-width: none;
-    padding-right: 1.5rem;
     right: 0;
     left: 0;
-    padding-right: 1.5rem;
+    padding-right: 2rem;
     padding-left: 2rem;
     overflow: scroll;
   }
@@ -2212,3 +2216,22 @@ code, .mono.address {
   display: block;
   margin-bottom: .5rem;
 }
+
+.cards.cards-centered {
+  text-align: center;
+}
+
+.cards.cards-centered p {
+  margin-bottom: 0;
+}
+
+/* .cards.cards-nobg .description{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  align-items: center;
+  text-align: center;
+} */
+
+
