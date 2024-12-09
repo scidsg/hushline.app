@@ -2234,4 +2234,6 @@ code, .mono.address {
   text-align: center;
 } */
 
-
+.cards.cards-centered .wrapper .wrapper {
+  padding: 0;
+}
