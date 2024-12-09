@@ -767,6 +767,10 @@ a.dropbtn:hover {
   background-image: url("../img/icon-ribbon.png");
 }
 
+.icon.pin {
+  background-image: url("../img/icon-pin.png");
+}
+
 /*GLOBAL STYLES*/
 
 body.landing {
