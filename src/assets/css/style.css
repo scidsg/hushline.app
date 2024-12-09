@@ -746,12 +746,25 @@ a.dropbtn:hover {
   background-image: url("../img/icon-git.png");
 }
 
-.icon.donor {
+.icon.donor,
+.icon.gift {
   background-image: url("../img/icon-donor.png");
 }
 
 .icon.time {
   background-image: url("../img/icon-time.png");
+}
+
+.icon.database {
+  background-image: url("../img/icon-database.png");
+}
+
+.icon.gift {
+  background-image: url("../img/icon-gift.png");
+}
+
+.icon.ribbon {
+  background-image: url("../img/icon-ribbon.png");
 }
 
 /*GLOBAL STYLES*/
