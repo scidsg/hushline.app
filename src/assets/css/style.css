@@ -2248,6 +2248,7 @@ code, .mono.address {
 
 .cards.cards-centered {
   text-align: center;
+  background: var(--color-bg);
 }
 
 .cards.cards-centered .description {
