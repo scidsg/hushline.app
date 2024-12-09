@@ -734,12 +734,24 @@ a.dropbtn:hover {
   background-image: url("../img/icon-mail.png");
 }
 
+.icon.mailvelope {
+  background-image: url("../img/icon-mailvelope.png");
+}
+
 .icon.tor {
   background-image: url("../img/icon-tor.png");
 }
 
+.icon.git {
+  background-image: url("../img/icon-git.png");
+}
+
 .icon.donor {
   background-image: url("../img/icon-donor.png");
+}
+
+.icon.time {
+  background-image: url("../img/icon-time.png");
 }
 
 /*GLOBAL STYLES*/
@@ -2219,6 +2231,10 @@ code, .mono.address {
 
 .cards.cards-centered {
   text-align: center;
+}
+
+.cards.cards-centered .description {
+  align-items: center;
 }
 
 .cards.cards-centered p {
