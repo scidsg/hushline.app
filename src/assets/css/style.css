@@ -2273,4 +2273,17 @@ code, .mono.address {
 
 .cards.cards-centered h2 {
   margin-bottom: 0;
+  width: 50%;
+}
+
+@media only screen and (max-width: 960px) {
+  .cards.cards-centered h2 {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cards.cards-centered h2 {
+    width: 100%;
+  }
 }
