@@ -61,9 +61,11 @@
             <div class="wrapper">
                 <div class="tabs docs-tabs">
                     <button class="tablinks" onclick="openTab(event, 'GettingStarted')">Getting Started</button>
+                    <button class="tablinks" onclick="openTab(event, 'AccountVisibility')">Share Your Tip Line</button>
                     <button class="tablinks" onclick="openTab(event, 'SecureAccount')">Secure Your Account</button>
                     <button class="tablinks" onclick="openTab(event, 'AccountVerification')">Account Verification</button>
                     <button class="tablinks" onclick="openTab(event, 'BestPractices')">Best Practices</button>
+                    <button class="tablinks" onclick="openTab(event, 'Whistleblowers')">For Whistleblowers</button>
                 </div>
                 <div id="GettingStarted" class="tabcontent">
                     <section class="steps">
@@ -98,7 +100,17 @@
                         <div class="feature">
                             <div class="wrapper">
                                 <div class="description">
-                                    <p class="step-label">Option 2.1.</p>    
+                                    <p class="step-label">Step 3.</p>
+                                    <h3>Add Information About Yourself</h3>
+                                    <p>In Settings > Profile, add a clear and helpful bio, additional links to your personal or business websites, your Signal username, or anything else helpful for your community.</p>
+                                </div>
+                                <img src="assets/img/docs/prep-account.webp" alt="Profile page wireframe">
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Option 3.1.</p>    
                                     <h4>Use with Proton Mail</h4>
                                         <p>Once set up, we'll deliver messages to your Proton Mail inbox, so you never have to worry about logging back into Hush Line to receive a message. The benefit of using Proton is that Hush Line uses the same encryption technology, so when your message is delivered, it will be seamlessly decrypted for you to read!</p>
                                         <p>If you don't have a Proton account, head to <a href="https://proton.me" target="_blank" rel="noopener noreferrer">https://proton.me</a> to create one. In Hush Line Settings, select the Email & Encryption tab. You'll see a search input with placeholder text reading "Search Proton email..." - enter the address you just created and click the Search Proton button. We'll automatically import your key into Hush Line, and your encryption setup will be complete!</p>
@@ -109,7 +121,7 @@
                         <div class="feature">
                             <div class="wrapper">
                                 <div class="description">
-                                    <p class="step-label">Option 2.2.</p> 
+                                    <p class="step-label">Option 3.2.</p> 
                                     <h4>Use with Mailvelope</h4>
                                     <p>If you prefer to use a mail provider like Gmail - or if you use Hush Line with no email forwarding at all - you should use Mailvelope, a browser extension for Chrome, Firefox, and Edge which allows you to read encrypted messages directly in the browser. To get it set up, <a href="https://mailvelope.com/en/help#installation" target="_blank" rel="noopener noreferrer">read their documentation on getting started</a>.</p>
                                     <p>Once you've created your PGP keypair, <a href="https://mailvelope.com/en/faq#backup" target="_blank" rel="noopener noreferrer">export your public key</a>. In Hush Line Settings, in the Email & Encryption tab, paste the key into the text area with the label "Or, Add Your Public PGP Key Manually."</p>
@@ -121,7 +133,7 @@
                         <div class="feature">
                             <div class="wrapper">
                                 <div class="description">
-                                    <p class="step-label">Step 3.</p> 
+                                    <p class="step-label">Step 4.</p> 
                                     <h3>Enable message forwarding</h3>
                                     <p>You can enable forwarding so you never have to check back into Hush Line to get messages. If you're using Hush Line with Proton Mail, enter your new Proton email address from Option 2.1 above. When messages arrive in your Proton inbox, they'll automatically be decrypted for you!</p>
                                     <p>If you prefer to forward to a different email provider like Gmail, you should have followed Option 2.2 above to set up Mailvelope. Go to your Gmail inbox in the same browser you have the Mailvelope extension installed. When an encrypted message arrives, you'll see a red seal with the Mailvelope logo. Click on it, and you'll be prompted to enter the password you created when you generated your key.</p>
@@ -169,6 +181,32 @@
                                     <p>You'll automatically be logged out of Hush Line after configuring two-factor. Log back in, and you'll see a new screen after entering your password for your new six-digit code. Go back to your authenticator app and retreive a new code for your Hush Line account. Entering it will allow you to log in to your account.</p>
                                 </div>
                                 <img src="assets/img/docs/enter-2fa.webp" alt="Wireframe of the 2FA page when logging in with an arrow pointing to the code input.">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div id="AccountVisibility" class="tabcontent" style="display:none;">
+                    <section class="steps">
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Step 1.</p>
+                                    <h3>Make Yourself Discoverable</h3>
+                                    <p>Opt into the public user directory so that app visitors can easily find your account. You can do this from Settings > Profile > Public User Directory.</p>
+                                </div>
+                                <img src="assets/img/docs/directory.webp" alt="User Directory wireframe">
+                            </div>
+                        </div>
+        
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Step 2.</p>
+                                    <h3>Share Your Address Widely</h3>
+                                    <p>Add a link to your tip line on your website, in your email signature, and in social media posts.</p>
+                                </div>
+                                <img src="assets/img/docs/email-signature.webp" alt="Tip line link in email signature">
                             </div>
                         </div>
                     </section>
@@ -254,6 +292,44 @@
                                     </blockquote>
                                 </div>
                                 <img src="assets/img/docs/verifiy-url.webp" alt="Wireframe of the Authentication tab in Settings with an arrow pointing to the extra fields heading.">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div id="Whistleblowers" class="tabcontent" style="display:none;">
+                    <section class="steps">
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Step 1.</p>
+                                    <h3>Start With The Directory</h3>
+                                    <p>First, if you're in immediate physical danger, call your local emergency services. If you're a concerned employee or citizen and are not in immediate danger, you can use the Hush Line User Directory to find journalists, lawyers, or other organizations who can help.</p>
+                                    <a href="https://tips.hushline.app/directory" class="btn btnLrg" rel="noopener noreferrer" target="_blank">User Directory</a>
+                                </div>
+                                <img src="assets/img/docs/directory-verified.webp" alt="Verified tab on the User Directory">
+                            </div>
+                        </div>
+            
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Step 2.</p>
+                                    <h3>Submit Your Message</h3>
+                                    <p>Deposit relevant information and optionally leave a contact method.</p>
+                                </div>
+                                <img src="assets/img/docs/submit-message.webp" alt="Submit message page">
+                            </div>
+                        </div>
+            
+                        <div class="feature">
+                            <div class="wrapper">
+                                <div class="description">
+                                    <p class="step-label">Step 3.</p>
+                                    <h3>Wait For A Response</h3>
+                                    <p>Check back to your unique reply link for status updates on your tip.</p>
+                                </div>
+                                <img src="assets/img/docs/message-status.webp" alt="2FA and Encrypted Message Screenshot">
                             </div>
                         </div>
                     </section>
