@@ -2376,3 +2376,7 @@ code, .mono.address {
 @media only screen and (max-width: 480px) {
 
 }
+
+p + p.step-label {
+  margin-top: 2rem;
+}
