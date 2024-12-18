@@ -759,6 +759,10 @@ a.dropbtn:hover {
   background-image: url("../img/icon-database.png");
 }
 
+.icon.search {
+  background-image: url("../img/icon-search.png");
+}
+
 .icon.gift {
   background-image: url("../img/icon-gift.png");
 }
