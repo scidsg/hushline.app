@@ -2365,6 +2365,10 @@ code, .mono.address {
     padding-left: 0;
   }
 
+  .tabs.docs-tabs button {
+    border-bottom: 3px solid transparent;
+  }
+
   .tabs.docs-tabs::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Edge */
   }
