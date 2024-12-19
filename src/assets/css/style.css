@@ -2362,6 +2362,7 @@ code, .mono.address {
     width: 100%;
     min-width: 100%;
     scrollbar-width: none;
+    padding-left: 0;
   }
 
   .tabs.docs-tabs::-webkit-scrollbar {
